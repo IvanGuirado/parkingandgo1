@@ -1,0 +1,49 @@
+.politica-ctn{
+    user-select: none;
+    min-height: calc(100vh - 147px - 156.25px);
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+.politica{
+    display: block;
+    margin: 10px;
+}
+.politica h2{
+    text-align: center;
+    font-size: 18px;
+    color: #173457;
+    margin: 10px;
+}
+.politica p{
+    font-size: 12px;
+    color: #3d3d4a;
+    margin: 10px;
+}
+
+/*Responsive*/
+@media screen and (min-width:480px) {
+    .politica h2{
+     font-size: 1.3rem;
+     margin-bottom: 15px;
+
+    }
+    .politica p{
+        font-size: 0.85rem;;
+    }
+}
+@media screen and (min-width:768px) {
+    .politica{
+        margin: 20px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .politica h2{
+     font-size: 1.8rem;
+
+    }
+    .politica p{
+        font-size: 1rem;
+        margin: 0 50px;
+    }
+}

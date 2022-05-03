@@ -1,0 +1,15 @@
+.g-recaptcha {
+
+    display: flex;
+    justify-content: center;
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+
+}
+
+@media screen and (min-width:480px) {
+    .g-recaptcha {
+        transform: scale(1);
+    }
+
+}

@@ -1,0 +1,539 @@
+/*ENGLISH START HERE*/
+/*ESTANCIAS code start*/
+
+/*Monthly*/
+.mensual_en .precio-area,
+.mensual_en .area-ctn {
+    background: #FFF;
+}
+
+.mensual_en .btn {
+    background: #fff;
+    color: #173457;
+    border: 2px solid #173457;
+}
+
+.mensual_en .btn:hover {
+    background: #173457;
+    color: #fff;
+    border: 2px solid #173457;
+}
+
+.mensual_en .estancia-nombre {
+    background: #173457;
+}
+
+.mensual_en .estancia-nombre:before {
+    background: rgb(219, 219, 219);
+    content: "Monthly";
+}
+
+/*Weekly*/
+.semanal_en .precio-area,
+.semanal_en .area-ctn {
+    background: #FFF;
+}
+
+.semanal_en .btn {
+    background: #fff;
+    color: #173457;
+    border: 2px solid #173457;
+}
+
+.semanal_en .btn:hover {
+    background: #173457;
+    color: #fff;
+    border: 2px solid #173457;
+}
+
+.semanal_en .estancia-nombre {
+    background: #173457;
+}
+
+.semanal_en .estancia-nombre:before {
+    background: rgb(219, 219, 219);
+    content: "Weekly";
+}
+
+/*ESTANCIAS code end*/
+
+/*Packs code start*/
+
+.limpieza_en .precio-area,
+.limpieza_en .area-ctn {
+    background: #ffd861;
+}
+
+.limpieza_en .btn {
+    background: #fff;
+    color: #ffd861;
+    border: 2px solid #ffd861;
+}
+
+.limpieza_en .btn:hover {
+    background: #ffd861;
+    color: #fff;
+    border: 2px solid #ffd861;
+}
+
+.mantenimiento_en .precio-area,
+.mantenimiento_en .area-ctn {
+    background: #a26bfa;
+}
+
+.mantenimiento_en .btn {
+    background: #fff;
+    color: #a26bfa;
+    border: 2px solid #a26bfa;
+}
+
+.mantenimiento_en .btn:hover {
+    background: #a26bfa;
+    color: #fff;
+    border: 2px solid #a26bfa;
+}
+
+.aeropuerto_en .precio-area,
+.aeropuerto_en .area-ctn {
+    background: #43ef8b;
+}
+
+.aeropuerto_en .btn {
+    background: #fff;
+    color: #43ef8b;
+    border: 2px solid #43ef8b;
+}
+
+.aeropuerto_en .btn:hover {
+    background: #43ef8b;
+    color: #fff;
+    border: 2px solid #43ef8b;
+}
+
+.premium_en .precio-area,
+.premium_en .area-ctn {
+    background: #F5A9A9;
+}
+
+.premium_en .btn {
+    background: #fff;
+    color: #F5A9A9;
+    border: 2px solid #F5A9A9;
+}
+
+.premium_en .btn:hover {
+    background: #F5A9A9;
+    color: #fff;
+    border: 2px solid #F5A9A9;
+}
+
+.limpieza_en .Pack-nombre {
+    background: #ffecb3;
+}
+
+.mantenimiento_en .Pack-nombre {
+    background: #d0b3ff;
+}
+
+.aeropuerto_en .Pack-nombre {
+    background: #baf8d4;
+}
+
+
+.premium_en .Pack-nombre {
+    background: #F8E0E0;
+}
+
+.limpieza_en .Pack-nombre:before {
+    content: "Cleanness";
+}
+
+.mantenimiento_en .Pack-nombre:before {
+    content: "Maintenance";
+}
+
+.aeropuerto_en .Pack-nombre:before {
+    content: "Airport";
+}
+
+.premium_en .Pack-nombre:before {
+    content: "Premium";
+}
+
+/*RESPONSIVE ENGLISH*/
+@media screen and (min-width:768px) {
+
+
+    /*Packs code start*/
+
+    .limpieza_en .caracteristicas {
+        padding-bottom: 0px;
+        margin-bottom: 166px;
+
+    }
+
+    .mantenimiento_en .caracteristicas {
+        margin-bottom: 43px;
+
+    }
+
+    .aeropuerto_en .caracteristicas {
+        margin-bottom: 40px;
+
+    }
+
+    .premium_en .info-ctn {
+        margin-top: 146px;
+    }
+
+    /*Estancias*/
+    .estancias_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .estancias-ctn .estancia {
+        min-height: 525px;
+        max-height: 525px;
+    }
+
+    .semanal_en .caracteristicas {
+        margin-bottom: 34px;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+
+    /*Packs code start*/
+    .limpieza_en, .mantenimiento_en,
+    .aeropuerto_en, .premium_en {
+        width: 350px;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+
+    .limpieza_en .caracteristicas {
+        margin-bottom: 239px;
+
+    }
+
+    .aeropuerto_en .caracteristicas {
+        padding-bottom: 0px;
+        margin-bottom: 84px;
+    }
+
+    .mantenimiento_en .caracteristicas {
+        margin-bottom: 86px;
+
+    }
+
+    .premium_en .info-ctn {
+        margin-top: 185px;
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+
+    .limpieza_en .caracteristicas {
+        margin-bottom: 175px;
+
+    }
+
+    .aeropuerto_en .caracteristicas {
+        margin-bottom: 50px;
+    }
+
+    .mantenimiento_en .caracteristicas {
+        margin-bottom: 50px;
+
+    }
+
+    .premium_en .info-ctn {
+        margin-top: 156px;
+    }
+}
+
+/*ENGLISH FINISH HERE*/
+/*GERMAN  START HERE*/
+/*ESTANCIAS code start*/
+/*Monthly*/
+.mensual_de .precio-area,
+.mensual_de .area-ctn {
+    background: #FFF;
+}
+
+.mensual_de .btn {
+    background: #fff;
+    color: #173457;
+    border: 2px solid #173457;
+}
+
+.mensual_de .btn:hover {
+    background: #173457;
+    color: #fff;
+    border: 2px solid #173457;
+}
+
+.mensual_de .estancia-nombre {
+    background: #173457;
+}
+
+.mensual_de .estancia-nombre:before {
+    background: rgb(219, 219, 219);
+    content: "Monatlicher";
+}
+
+/*Weekly*/
+.semanal_de .precio-area,
+.semanal_de .area-ctn {
+    background: #FFF;
+}
+
+.semanal_de .btn {
+    background: #fff;
+    color: #173457;
+    border: 2px solid #173457;
+}
+
+.semanal_de .btn:hover {
+    background: #173457;
+    color: #fff;
+    border: 2px solid #173457;
+}
+
+.semanal_de .estancia-nombre {
+    background: #173457;
+}
+
+.semanal_de .estancia-nombre:before {
+    background: rgb(219, 219, 219);
+    content: "Wöchentlicher";
+}
+
+/*ESTANCIAS code end*/
+/*Packs code start*/
+
+.limpieza_de .precio-area,
+.limpieza_de .area-ctn {
+    background: #ffd861;
+}
+
+.limpieza_de .btn {
+    background: #fff;
+    color: #ffd861;
+    border: 2px solid #ffd861;
+}
+
+.limpieza_de .btn:hover {
+    background: #ffd861;
+    color: #fff;
+    border: 2px solid #ffd861;
+}
+
+.mantenimiento_de .precio-area,
+.mantenimiento_de .area-ctn {
+    background: #a26bfa;
+}
+
+.mantenimiento_de .btn {
+    background: #fff;
+    color: #a26bfa;
+    border: 2px solid #a26bfa;
+}
+
+.mantenimiento_de .btn:hover {
+    background: #a26bfa;
+    color: #fff;
+    border: 2px solid #a26bfa;
+}
+
+.aeropuerto_de .precio-area,
+.aeropuerto_de .area-ctn {
+    background: #43ef8b;
+}
+
+.aeropuerto_de .btn {
+    background: #fff;
+    color: #43ef8b;
+    border: 2px solid #43ef8b;
+}
+
+.aeropuerto_de .btn:hover {
+    background: #43ef8b;
+    color: #fff;
+    border: 2px solid #43ef8b;
+}
+
+.premium_de .precio-area,
+.premium_de .area-ctn {
+    background: #F5A9A9;
+}
+
+.premium_de .btn {
+    background: #fff;
+    color: #F5A9A9;
+    border: 2px solid #F5A9A9;
+}
+
+.premium_de .btn:hover {
+    background: #F5A9A9;
+    color: #fff;
+    border: 2px solid #F5A9A9;
+}
+
+.limpieza_de .Pack-nombre {
+    background: #ffecb3;
+}
+
+.mantenimiento_de .Pack-nombre {
+    background: #d0b3ff;
+}
+
+.aeropuerto_de .Pack-nombre {
+    background: #baf8d4;
+}
+
+
+.premium_de .Pack-nombre {
+    background: #F8E0E0;
+}
+
+.limpieza_de .Pack-nombre:before {
+    content: "Reinigungs";
+}
+
+.mantenimiento_de .Pack-nombre:before {
+    content: "Wartungs";
+}
+
+.aeropuerto_de .Pack-nombre:before {
+    content: "Flughafen";
+}
+
+.premium_de .Pack-nombre:before {
+    content: "Prämie";
+}
+.premium_de .info-area {
+    text-align: center;
+}
+/*RESPONSIVE GERMAN*/
+
+@media screen and (min-width:480px) {
+    .limpieza_de .caracteristicas {
+        margin-bottom: 20px;
+
+    }
+    .mantenimiento_de .caracteristicas {
+        margin-bottom: 20px;
+
+    }
+    .aeropuerto_de .caracteristicas {
+        margin-bottom: 20px;
+
+    }
+    .premium_de .caracteristicas {
+        margin-bottom: 20px;
+
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+
+
+    /*Packs code start*/
+
+    .limpieza_de .caracteristicas {
+        padding-bottom: 0px;
+        margin-bottom: 173px;
+
+    }
+
+    .mantenimiento_de .caracteristicas {
+        margin-bottom: 15px;
+
+    }
+
+    .aeropuerto_de .caracteristicas {
+        margin-bottom: 30px;
+
+    }
+
+    .premium_de .info-ctn {
+        margin-top: 137px;
+    }
+
+    /*Estancias*/
+    .estancias_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .estancias-ctn .estancia {
+        min-height: 525px;
+        max-height: 525px;
+    }
+
+    .semanal_de .caracteristicas {
+        margin-bottom: 34px;
+    }
+
+}
+@media screen and (min-width:1024px) {
+   
+    /*Packs */
+    .limpieza_de, .mantenimiento_de,
+    .aeropuerto_de, .premium_de {
+        width: 350px;
+        height: 400px;
+    }
+
+}
+@media screen and (min-width:1200px) {
+
+
+    .limpieza_de .caracteristicas {
+        margin-bottom: 239px;
+
+    }
+
+    .aeropuerto_de .caracteristicas {
+        margin-bottom: 21px;
+    }
+
+    .mantenimiento_de .caracteristicas {
+        margin-bottom: 36px;
+
+    }
+
+    .premium_de .info-ctn {
+        margin-top: 185px;
+    }
+
+}
+@media screen and (min-width:1280px) {
+
+    .limpieza_de .caracteristicas {
+        margin-bottom: 179px;
+
+    }
+
+    .aeropuerto_de .caracteristicas {
+        margin-bottom: 6px;
+    }
+
+    .mantenimiento_de .caracteristicas {
+        margin-bottom: 20px;
+
+    }
+
+    .premium_de .info-ctn {
+        margin-top: 125px;
+    }
+}

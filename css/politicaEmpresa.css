@@ -1,0 +1,62 @@
+.politicaEmpresa-ctn {
+    user-select: none;
+    min-height: calc(100vh - 147px - 156.25px);
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.politicaEmpresa {
+    display: block;
+    margin: 10px;
+}
+
+.politicaEmpresa h2 {
+    margin: 10px;
+    font-size: 18px;
+    color: #173457;
+}
+
+.politicaEmpresa p {
+    font-size: 12px;
+    color: #3d3d4a;
+    margin: 10px;
+}
+
+/*Responsive*/
+@media screen and (min-width:480px) {
+    .politicaEmpresa h2 {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+
+    }
+
+    .politicaEmpresa p {
+        font-size: 0.85rem;
+        ;
+    }
+
+}
+@media screen and (min-width:768px) {
+    .politicaEmpresa {
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .politicaEmpresa h2 {
+        font-size: 1.8rem;
+        margin: 10px 50px;
+
+    }
+
+    .politicaEmpresa p {
+        font-size: 1rem;
+        margin: 0 50px;
+        margin-bottom: 10px;
+    }
+
+    .politicaEmpresa p:last-child {
+        margin-bottom: 30px;
+    }
+}

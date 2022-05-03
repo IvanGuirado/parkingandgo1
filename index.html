@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv=x-ua-compatible content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css\style.css" type="text/css">
+    <link rel="stylesheet" href="css\inicio.css" type="text/css">
+    <link rel="stylesheet" href="css\idiomas.css" type="text/css">
+    <link rel="stylesheet" href="css\recaptcha.css" type="text/css">
+    <link rel="stylesheet" href="css\traducciones.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Parking</title>
+</head>
+
+<body>
+    <header id="layout">
+
+        <nav>
+            <div class="ctn-nav">
+                <div class="nav-bar">
+                    <div id="Name">
+                        <h2>PARK AND GO</h2>
+                        <p>Your car park</p>
+                    </div>
+                    <div id="logo">
+                        <a href="index.html"><img src="Imagenes/LOGORe.svg" /></a>
+                    </div>
+                    <div class="right-menu">
+                        <div class="lang-menu">
+                            <div class="lang-es selected-lang">
+                                <img src="Imagenes/es.png"> ES
+                            </div>
+                            <div class="lang-en selected-lang">
+                                <img src="Imagenes/gb.png"> EN
+                            </div>
+                            <div class="lang-de selected-lang">
+                                <img src="Imagenes/de.png"> DE
+                            </div>
+                            <ul>
+                                <li class="li-es">
+                                    <span onclick="doLangSelect('es')" class="flag-es">ES</a>
+                                </li>
+                                <li class="li-de">
+                                    <span onclick="doLangSelect('de')" class="flag-de">DE</a>
+                                </li>
+                                <li class="li-en">
+                                    <span onclick="doLangSelect('en')" class="flag-en">EN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="lang-es inicio-wrapper">
+        <div id="seccion1">
+            <div class="texto">
+                <h2>PARKING EN HANGAR DE LARGA ESTANCIA CON ENTREGA Y RECOGIDA EN EL AEROPUERTO</h2>
+                <br>
+                <p>
+                    Evite averías inesperadas e imprevistos producidos por la inactividad del vehículo. En Park and Go
+                    ofrecemos
+                    estancia en un hangar cubierto con seguridad 24h, atención individualizada y toda la atención para
+                    mantener sus
+                    coche en el mejor estado para su uso diario a su regreso. Disponibles estancias semanales o
+                    mensuales con
+                    servicios de limpieza, revisiones mensuales, servicio de entrega y recogida así
+                    cómo servicios premium.
+                    Con tu estancia mensual te incluimos el servicio de limpieza exterior, revisión de neumáticos y
+                    bateria, así como
+                    un chequeo periódico para una conservación óptima. Para un servicio más completo nuestros
+                    servicios extra le ayudarán a disfrutar del coche desde el primer momento con todo lo que pueda
+                    necesitar.
+                </p>
+            </div>
+        </div>
+        <div id="seccion2">
+            <h2>NUESTRAS ESTANCIAS</h2>
+            <div class="estancias_wrapper">
+                <div class="estancias-ctn">
+                    <div class="estancia mensual">
+                        <div class="estancia-img">
+                            <img src="Imagenes/garaje1.jpg" />
+                        </div>
+                        <div class="estancia-nombre"></div>
+                        <div class="caracteristicas">
+                            <ul>
+                                <li>
+                                    <span class="nombre-lista">Entrega y recogida en aeropuerto</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">limpieza exterior</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Revisión de neumáticos</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Batería</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Chequeo periódico</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="precioestancia-ctn">
+                            <div class="precio-area">
+                                <div class="area-estancia-ctn">
+                                    <div class="precioyiva">
+                                        <span class="precio">180€</span><br>
+                                        <span id="iva">(IVA no incl.)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="boton-estancia">
+                            <button class="btn estancia-info">Más info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="estancias-ctn">
+                    <div class="estancia semanal">
+                        <div class="estancia-img">
+                            <img src="Imagenes/garaje2.jpg" />
+                        </div>
+                        <div class="estancia-nombre"></div>
+                        <div class="caracteristicas">
+                            <ul>
+                                <li>
+                                    <span class="nombre-lista">Transfer en taxi desde el aeropuerto</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Limpieza exterior</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Revisión de neumáticos</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Batería</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="precioestancia-ctn">
+                            <div class="precio-area">
+                                <div class="area-estancia-ctn">
+                                    <div class="precioyiva">
+                                        <span class="precio">70€</span><br>
+                                        <span id="iva">(IVA no incl.)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="boton-estancia">
+                            <button class="btn estancia-info">Más info</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="seccion3">
+            <div class="texto">
+                <p>Parking de larga estancia con la máxima atención y revisiones, tanto durante la estancia cómo a la
+                    entrega para
+                    disponer de su coche siempre en las mejores condiciones. Con nuestros packs tendrá el mejor de los
+                    servicios
+                    para su coche y disponer de él listo y revisado para sus estancia en la isla.
+                </p>
+            </div>
+        </div>
+        <div id="seccion4">
+            <h2>NUESTROS PACKS</h2>
+
+            <div class="packs-ctn">
+                <div class="pack limpieza">
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <li>
+                            <span class="nombre-lista">Limpieza de interiores.</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Lavado de exterior.</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Lavado de llantas.</span>
+                        </li>
+                    </div>
+                    <div class="precio-ctn">
+                        <div class="precio-area">
+                            <div class="area-ctn">
+                                <span class="precio">80<span id="euro">€</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">Más info</button>
+                    </div>
+
+                </div>
+                <div class="pack  mantenimiento">
+
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <li>
+                            <span class="nombre-lista">Cambio de aceite y todos los filtros (Combustible, aceite y
+                                aire).</span>
+
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Comprobación de líquidos en el coche (Radiadores, anticongelante,
+                                cristales).</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Cargar batería.</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Llenado de depósito(se realizará el cargo a parte, dependiendo de
+                                la capacidad del vehiculo a la entrega).</span>
+                        </li>
+                        <p class="pman">* Dependera de la Marca y modelo
+                            del coche</p>
+                    </div>
+                    <div class="precio-ctn">
+                        <div class="precio-area">
+                            <div class="area-ctn">
+                                <span class="precio">250<span id="euro">€</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">Más info</button>
+                    </div>
+
+                </div>
+                <div class="pack aeropuerto">
+
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <li>
+                            <span class="nombre-lista">Entrega y recogida en el aeropuerto. </span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Despega dejando tu coche en el mismo aeropuerto y aterriza
+                                encontrando el coche aparcado en la puerta.</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Disponemos de la opción de entregar el vehiculo solamente a la
+                                llegada, y su precio es de 75€.</span>
+                        </li>
+                        <p class="pman">* Durante los transportes, tu vehículo está asegurado a todo riesgo (robo,
+                            incendio, daños)
+                            y asegurado por un valor de hasta 800000€. No es necesario que realices ninguna
+                            gestión.</p>
+                    </div>
+                    <div class="precio-ctn">
+                        <div class="precio-area">
+                            <div class="area-ctn">
+                                <span class="precio">150<span id="euro">€</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">Más info</button>
+                    </div>
+                </div>
+                <div class="pack premium">
+
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <li>
+                            <span class="nombre-lista">Incluimos todos los packs anteriores.</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Más otros servicios premium que puedas necisitar, tales como
+                                (Seguro, ITV, vehiculo adicional).
+                            </span>
+                        </li>
+                    </div>
+                    <div class="info-ctn">
+                        <div class="info-area">
+                            <span class="solicita">Solita más información</span>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">Más info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="seccion5">
+            <div class="formulario-container">
+                <div class="formulario">
+                    <div class="contact-section">
+                        <div class="contact-form">
+                            <h2>Contacta con nosotros</h2>
+                            <form class="form-contact" action=https://submit-form.com/acpZnk65 method="POST">
+                                <input type="hidden" name="_email.from" value="Parking and Go" />
+                                <input type="hidden" name="_redirect"
+                                    value="http://localhost/parkingandgo1/enviado.html" />
+                                <input type="hidden" value="" name="_replyto" placeholder="Your email" />
+
+                                <div class="datos">
+                                    <input type="text" name="Nombre" class="text-box" placeholder="Nombre" required>
+                                    <input type="text" name="Apellidos" class="text-box" placeholder="Apellidos "
+                                        required>
+                                    <input type="tel" name="Telefono" class="text-box" placeholder="Telefono " required>
+                                    <div class="entrega">
+                                        <p>Fecha de entrega</p>
+                                        <input type="date" name="Estancia" class="text-box" placeholder="Estancia"
+                                            required>
+                                    </div>
+                                    <input type="email" name="Email" class="text-box" placeholder="Email" required>
+                                </div>
+
+                                <div class="select1-ctn">
+                                    <div class="select-box1">
+                                        <p>Seleccione la marca</p>
+                                        <div id="cselect">
+                                            <select name="pack_select" required>
+                                                <option selected="yes">-------------</option>
+                                                <option>Alfa Romeo </option>
+                                                <option>Audi </option>
+                                                <option>BMW</option>
+                                                <option>Citroën </option>
+                                                <option>Dacia </option>
+                                                <option>Fiat </option>
+                                                <option>Ford </option>
+                                                <option>Honda</option>
+                                                <option>Hyundai </option>
+                                                <option>Jeep </option>
+                                                <option>Kia </option>
+                                                <option>Land Rover</option>
+                                                <option>Mazda </option>
+                                                <option>Mercedes </option>
+                                                <option>MINI </option>
+                                                <option>Mitsubishi </option>
+                                                <option>Nissan</option>
+                                                <option>Opel </option>
+                                                <option>Peugeot </option>
+                                                <option>Renault</option>
+                                                <option>SsangYong</option>
+                                                <option>SEAT </option>
+                                                <option>Skoda </option>
+                                                <option>Suzuki </option>
+                                                <option>Tesla</option>
+                                                <option>Toyota </option>
+                                                <option>Volkswagen </option>
+                                                <option>Volvo </option>
+                                                <option>Otro </option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="text" name="Modelo" class="text-box" placeholder="Modelo" required>
+                                </div>
+                                <div class="select2-ctn">
+                                    <div class="select-box2">
+                                        <p>Seleccione la estancia</p>
+                                        <div id="pselect">
+                                            <select name="stancia_select" required>
+                                                <option selected="yes">-------------</option>
+                                                <option>Mensual </option>
+                                                <option>Semanal </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="check-box">
+                                    <p>Seleccione el pack</p>
+                                    <div id="check" required>
+                                        <div><input type="checkbox" value="Limpieza" name="pack"> Limpieza</div>
+                                        <div><input type="checkbox" value="Mantenimiento" name="pack"> Mantenimiento
+                                        </div>
+                                        <div><input type="checkbox" value="Aeropuerto" name="pack"> Aeropuerto</div>
+                                        <div><input type="checkbox" value="Premium" name="pack"> Premium</div>
+                                    </div>
+                                </div>
+                                <div class="mensaje">
+                                    <textarea name="message" row="5" placeholder="Mensaje"></textarea>
+                                </div>
+                                <div class="privacidad">
+                                    <input type="checkbox" value="Politica" class="check-politica"> He leído y
+                                    acepto los <span><a href="#">términos y condiciones de uso.</a></span>
+
+                                </div>
+                                <div class="sent">
+                                    <button type="submit" name="Enviar" id="boton-enviar" value="Enviar">
+                                        Enviar</button>
+                                </div>
+                                <div class="g-recaptcha" data-sitekey="6Lcpp2wfAAAAAOZVciKVxirfZVeebALB9JzF3SId"></div>
+                            </form>
+                        </div>
+
+                        <div class="contact-info">
+                            <div><i class="fa fa-envelope" aria-hidden="true"></i>contact@parkandgomallorca.com</div>
+                            <div><i class="fa fa-phone" aria-hidden="true"></i>611182454</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lang-en inicio-wrapper">
+        <div id="seccion1">
+            <div class="texto">
+                <h2>LONG STAY PARKING IN HANGAR WITH DELIVERY AND PICK UP AT THE AIRPORT</h2>
+                <br>
+                <p>
+                    Avoid unexpected and unprovided breakdowns caused by vehicle inactivity. In Park and Go
+                    offers parking in our hangar during weeks or monthly, with security, periodics
+                    inspections and all
+                    details to maintain your car in the best state for a daily use at your return. We are inclouding in
+                    your monthly stays
+                    outside cleaning and wheels and battery inspections at the pickup or delivered to the airport. For a
+                    week stays we
+                    do a wheels check and battery level. If do you need any other services we got our pack to cover your
+                    necessities.
+                    Our pack will provide you any type of maintain, cleaning service, transfers and paperwork your car
+                    could need, just
+                    to do not loose your time during the holidays on your car. Add our packs to your parking and enjoy
+                    prepare you car
+                    for the days on Mallorca.
+                </p>
+            </div>
+        </div>
+        <div id="seccion2">
+            <h2>OUR STAYS</h2>
+            <div class="estancias_wrapper">
+                <div class="estancias-ctn">
+                    <div class="estancia mensual_en">
+                        <div class="estancia-img">
+                            <img src="Imagenes/garaje1.jpg" />
+                        </div>
+                        <div class="estancia-nombre"></div>
+                        <div class="caracteristicas">
+                            <ul>
+                                <li>
+                                    <span class="nombre-lista">Delivery and collection at the airport</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">External cleaning</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Tyre check</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Battery</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Periodic check</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="precioestancia-ctn">
+                            <div class="precio-area">
+                                <div class="area-estancia-ctn">
+                                    <div class="precioyiva">
+                                        <span class="precio">180€</span><br>
+                                        <span id="iva">(IVA no incl.)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="boton-estancia">
+                            <button class="btn estancia-info">More info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="estancias-ctn">
+                    <div class="estancia semanal_en">
+                        <div class="estancia-img">
+                            <img src="Imagenes/garaje2.jpg" />
+                        </div>
+                        <div class="estancia-nombre"></div>
+                        <div class="caracteristicas">
+                            <ul>
+                                <li>
+                                    <span class="nombre-lista">Taxi transfer from the airport</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">External cleaning</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Tyre chack</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Battery</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="precioestancia-ctn">
+                            <div class="precio-area">
+                                <div class="area-estancia-ctn">
+                                    <div class="precioyiva">
+                                        <span class="precio">70€</span><br>
+                                        <span id="iva">(IVA no incl.)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="boton-estancia">
+                            <button class="btn estancia-info">More info</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="seccion3">
+            <div class="texto">
+                <p>Long-term parking in our hangar with security and the best maintenance throughout the stay, 24 hours
+                    security
+                    cams. Also we are offering delivey and pickup or airport transfer. With our packs and premium
+                    service will keep
+                    your car ready for your island days.
+                </p>
+            </div>
+        </div>
+        <div id="seccion4">
+            <h2>OUR PACKS</h2>
+
+            <div class="packs-ctn">
+                <div class="pack limpieza_en">
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <ul>
+                            <li>
+                                <span class="nombre-lista">Full inside cleaning.</span>
+                            </li>
+                            <li>
+                                <span class="nombre-lista">Full outside cleaning.</span>
+                            </li>
+                            <li>
+                                <span class="nombre-lista">Full outside cleaning.</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="precio-ctn">
+                        <div class="precio-area">
+                            <div class="area-ctn">
+                                <span class="precio">80<span id="euro">€</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">More info</button>
+                    </div>
+
+                </div>
+                <div class="pack  mantenimiento_en">
+
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <ul>
+                            <li>
+                                <span class="nombre-lista">Oil filter and oil change.</span>
+
+                            </li>
+                            <li>
+                                <span class="nombre-lista">Fuel filter.</span>
+                            </li>
+                            <li>
+                                <span class="nombre-lista">Air filters.</span>
+                            </li>
+                            <li>
+                                <span class="nombre-lista">Battery charged.</span>
+                            </li>
+                            <li>
+                                <span class="nombre-lista">Cooling system levels check.</span>
+                            </li>
+                            <li>
+                                <span class="nombre-lista">Refill fuel tank. Paying at the pickup, depending tank level
+                                    and
+                                    fuel cost.</span>
+                            </li>
+                            <p class="pman">* Depends on the brand and model
+                                of the car</p>
+                        </ul>
+
+                    </div>
+                    <div class="precio-ctn">
+                        <div class="precio-area">
+                            <div class="area-ctn">
+                                <span class="precio">250<span id="euro">€</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">More info</button>
+                    </div>
+
+                </div>
+                <div class="pack aeropuerto_en">
+
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <li>
+                            <span class="nombre-lista">Delivery and pickup at the airport. </span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Leave your car at the airport before your plane takes off and
+                                find it
+                                parked outside the door.</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">We have the option of delivering the vehicle only to the arrival,
+                                and the price is 75€.</span>
+                        </li>
+                        <p class="pman">* During transport, your vehicle is fully insured (theft, fire, damage) and
+                            insured for a value of up to €800,000. You don't need to do any management.</p>
+                    </div>
+                    <div class="precio-ctn">
+                        <div class="precio-area">
+                            <div class="area-ctn">
+                                <span class="precio">150<span id="euro">€</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">More info</button>
+                    </div>
+                </div>
+                <div class="pack premium_en">
+
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <li>
+                            <span class="nombre-lista">We include all the previous packs.</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Plus other premium services that you may need, such as
+                                (Insurance, ITV, and additional vehicle).
+                            </span>
+                        </li>
+                    </div>
+                    <div class="info-ctn">
+                        <div class="info-area">
+                            <span class="solicita">Apply for more information.</span>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">More info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="seccion5">
+            <div class="formulario-container">
+                <div class="formulario">
+                    <div class="contact-section">
+                        <div class="contact-form">
+                            <h2>Contact us</h2>
+                            <form class="form-contact" action="https://submit-form.com/acpZnk65" method="POST">
+                                <input type="hidden" name="_email.from" value="Parking and Go" />
+                                <input type="hidden" name="_redirect"
+                                    value="http://localhost/parkingandgo1/enviado.html" />
+                                <input type="hidden" value="" name="_replyto" placeholder="Your email" />
+
+                                <div class="datos">
+                                    <input type="text" name="Nombre" class="text-box" placeholder="Name" required>
+                                    <input type="text" name="Apellidos" class="text-box" placeholder="Surname" required>
+                                    <input type="tel" name="Telefono" class="text-box" placeholder="Telephone "
+                                        required>
+                                    <div class="delivery">
+                                        <p>Delivery date</p>
+                                        <input type="date" name="Estancia" class="text-box" placeholder="Stay" required>
+                                    </div>
+                                    <input type="email" name="Email" class="text-box" placeholder="Email" required>
+                                </div>
+
+                                <div class="select1-ctn">
+                                    <div class="select-box1">
+                                        <p>Choose a brand</p>
+                                        <div id="cselect">
+                                            <select name="pack_select" required>
+                                                <option selected="yes">-------------</option>
+                                                <option>Alfa Romeo </option>
+                                                <option>Audi </option>
+                                                <option>BMW</option>
+                                                <option>Citroën </option>
+                                                <option>Dacia </option>
+                                                <option>Fiat </option>
+                                                <option>Ford </option>
+                                                <option>Honda</option>
+                                                <option>Hyundai </option>
+                                                <option>Jeep </option>
+                                                <option>Kia </option>
+                                                <option>Land Rover</option>
+                                                <option>Mazda </option>
+                                                <option>Mercedes </option>
+                                                <option>MINI </option>
+                                                <option>Mitsubishi </option>
+                                                <option>Nissan</option>
+                                                <option>Opel </option>
+                                                <option>Peugeot </option>
+                                                <option>Renault</option>
+                                                <option>SsangYong</option>
+                                                <option>SEAT </option>
+                                                <option>Skoda </option>
+                                                <option>Suzuki </option>
+                                                <option>Tesla</option>
+                                                <option>Toyota </option>
+                                                <option>Volkswagen </option>
+                                                <option>Volvo </option>
+                                                <option>Otro </option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="text" name="Modelo" class="text-box" placeholder="Model" required>
+                                </div>
+                                <div class="select2-ctn">
+                                    <div class="select-box2">
+                                        <p>Choose a stay</p>
+                                        <div id="pselect">
+                                            <select name="pack_select" required>
+                                                <option selected="yes">-------------</option>
+                                                <option>Monthly </option>
+                                                <option>Weekly </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="check-box">
+                                    <p>Choose a pack</p>
+                                    <div id="check" required>
+                                        <div><input type="checkbox" value="Limpieza" name="pack"> Cleaness</div>
+                                        <div><input type="checkbox" value="Mantenimiento" name="pack"> Maintenance
+                                        </div>
+                                        <div><input type="checkbox" value="Aeropuerto" name="pack"> Airport</div>
+                                        <div><input type="checkbox" value="Premium" name="pack"> Premium</div>
+                                    </div>
+                                </div>
+                                <div class="mensaje">
+                                    <textarea name="message" row="5" placeholder="Message"></textarea>
+                                </div>
+                                <div class="privacidad">
+                                    <input type="checkbox" value="Politica" class="check-politica"> I have read and
+                                    <span><a href="#">accept the terms and conditions of use.</a></span>
+
+                                </div>
+                                <div class="sent">
+                                    <button type="submit" name="Enviar" id="boton-enviar" value="Enviar">
+                                        Sent</button>
+                                </div>
+                                <div class="g-recaptcha" data-sitekey="6Lcpp2wfAAAAAOZVciKVxirfZVeebALB9JzF3SId"></div>
+                            </form>
+                        </div>
+
+                        <div class="contact-info">
+                            <div><i class="fa fa-envelope" aria-hidden="true"></i>contact@parkandgomallorca.com</div>
+                            <div><i class="fa fa-phone" aria-hidden="true"></i>611182454</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lang-de inicio-wrapper" id="home-layout-box">
+        <div id="seccion1">
+            <div class="texto">
+                <h2>LANGZEITPARKEN IM HANGAR MIT LIEFERUNG UND ABHOLUNG AM FLUGHAFEN</h2>
+                <br>
+                <p>
+                    Ermeiden Sie unerwartete und unvorhergesehene Pannen, die durch Inaktivität des Fahrzeugs verursacht
+                    werden.
+                    Bei Park and Go bietet wochen- oder monatlich Parkplätze in unserem Hangar an, mit Sicherheit,
+                    regelmäßigen
+                    Inspektionen und allen Details, um Ihr Auto bei Ihrer Rückkehr im besten Zustand für den täglichen
+                    Gebrauch zu
+                    halten. Wir inkludieren in Ihre monatlichen Aufenthalte Außenreinigung sowie Räder- und
+                    Batterieinspektionen bei
+
+                    der Abholung oder Lieferung zum Flughafen. Bei einwöchigen Aufenthalten prüfen wir die Räder und den
+                    Batteriestand. Wenn Sie weitere Dienstleistungen benötigen, haben wir unser Paket, um Ihre
+                    Bedürfnisse zu
+                    decken.
+                    Unser Paket bietet Ihnen jede Art von Wartung, Reinigungsservice, Transfers und Papierkram, die Ihr
+                    Auto
+                    benötigen könnte, damit Sie während der Ferien keine Zeit mit Ihrem Auto verlieren. Fügen Sie unsere
+                    Pakete zu
+                    Ihrem Parkplatz hinzu und bereiten Sie Ihr Auto auf die Tage auf Mallorca vor.
+                </p>
+            </div>
+        </div>
+        <div id="seccion2">
+            <h2>UNSERE AUFENTHALTE</h2>
+            <div class="estancias_wrapper">
+                <div class="estancias-ctn">
+                    <div class="estancia mensual_de">
+                        <div class="estancia-img">
+                            <img src="Imagenes/garaje1.jpg" />
+                        </div>
+                        <div class="estancia-nombre"></div>
+                        <div class="caracteristicas">
+                            <ul>
+                                <li>
+                                    <span class="nombre-lista">Abholung und Zustellung am Flughafen</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Externe Reinigung</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Reifenkontrolle</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Batterie</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Regelmäßige Kontrolle</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="precioestancia-ctn">
+                            <div class="precio-area">
+                                <div class="area-estancia-ctn">
+                                    <div class="precioyiva">
+                                        <span class="precio">180€</span><br>
+                                        <span id="iva">(IVA no incl.)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="boton-estancia">
+                            <button class="btn estancia-info">Mehr Infos</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="estancias-ctn">
+                    <div class="estancia semanal_de ">
+                        <div class="estancia-img">
+                            <img src="Imagenes/garaje2.jpg" />
+                        </div>
+                        <div class="estancia-nombre"></div>
+                        <div class="caracteristicas">
+                            <ul>
+                                <li>
+                                    <span class="nombre-lista">Taxitransfer vom Flughafen</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Außenreinigung</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Reifenkontrolle</span>
+                                </li>
+                                <li>
+                                    <span class="nombre-lista">Batterie</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="precioestancia-ctn">
+                            <div class="precio-area">
+                                <div class="area-estancia-ctn">
+                                    <div class="precioyiva">
+                                        <span class="precio">70€</span><br>
+                                        <span id="iva">(IVA no incl.)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="boton-estancia">
+                            <button class="btn estancia-info">Mehr Infos</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="seccion3">
+            <div class="texto">
+                <p>Langzeitparken in unserem Hangar mit Sicherheit und bester Wartung während des gesamten Aufenthalts,
+                    24
+                    Stunden-Überwachungskameras. Wir bieten auch Lieferung und Abholung oder Flughafentransfer an. Mit
+                    unseren
+                    Paketen und unserem Premium-Service halten Sie Ihr Auto für Ihre Inseltage bereit.
+                </p>
+            </div>
+        </div>
+        <div id="seccion4">
+            <h2>UNSERE PAKETE</h2>
+
+            <div class="packs-ctn">
+                <div class="pack limpieza_de">
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <li>
+                            <span class="nombre-lista">Vollständige Innenreinigung.</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Vollständige Außenreinigung.</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Reinigung der Räder.</span>
+                        </li>
+                    </div>
+                    <div class="precio-ctn">
+                        <div class="precio-area">
+                            <div class="area-ctn">
+                                <span class="precio">80<span id="euro">€</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">Mehr Infos</button>
+                    </div>
+
+                </div>
+                <div class="pack  mantenimiento_de">
+
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <li>
+                            <span class="nombre-lista">Ölwechsel und alle Filter (Kraftstoff, Öl und Luft).
+                            </span>
+
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Kontrolle der Flüssigkeiten im Auto (Kühler, Frostschutzmittel,
+                                Kristalle).</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Batterie aufladen.</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Befüllung des Tanks (je nach Fassungsvermögen des Tanks wird eine
+                                separate Gebühr erhoben)
+                                abhängig von der Kapazität des Fahrzeugs bei Auslieferung).</span>
+                        </li>
+                        <p class="pman">* Hängt von Marke und Modell ab
+                            von dem Auto</p>
+                    </div>
+                    <div class="precio-ctn">
+                        <div class="precio-area">
+                            <div class="area-ctn">
+                                <span class="precio">250<span id="euro">€</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">Mehr Infos</button>
+                    </div>
+
+                </div>
+                <div class="pack aeropuerto_de">
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <li>
+                            <span class="nombre-lista">Lieferung und Abholung am Flughafen. </span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Starten Sie und lassen Sie Ihr Auto am Flughafen stehen und
+                                landen Sie auf dem Flughafen Sie finden Ihr Auto am Tor geparkt</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Wir haben die Möglichkeit, das Fahrzeug erst bei der Ankunft zu
+                                liefern, zu einem Preis von 75 €.</span>
+                        </li>
+                        <p class="pman">* Während des Transports ist Ihr Fahrzeug voll versichert (Diebstahl,
+                            Feuer Schaden) und bis zu einem Wert von 800.000 € versichert. Sie müssen nichts tun
+                            Management.</p>
+                    </div>
+                    <div class="precio-ctn">
+                        <div class="precio-area">
+                            <div class="area-ctn">
+                                <span class="precio">150<span id="euro">€</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">Mehr Infos</button>
+                    </div>
+                </div>
+                <div class="pack premium_de">
+
+                    <div class="Pack-nombre"></div>
+                    <div class="caracteristicas">
+                        <li>
+                            <span class="nombre-lista">Wir bieten alle oben genannten Pakete an.</span>
+                        </li>
+                        <li>
+                            <span class="nombre-lista">Plus alle anderen Premium-Services, die Sie benötigen, wie z. b.
+                                (Versicherung, ITV, zusätzliches Fahrzeug).
+                            </span>
+                        </li>
+                    </div>
+                    <div class="info-ctn">
+                        <div class="info-area">
+                            <span class="solicita">Mehr Informationen anfordern</span>
+                        </div>
+                    </div>
+                    <div id="boton-center">
+                        <button class="btn btn-info">Mehr Infos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="seccion5">
+            <div class="formulario-container">
+                <div class="formulario">
+                    <div class="contact-section">
+                        <div class="contact-form">
+                            <h2>Kontakt mit uns</h2>
+                            <form class="form-contact" action="https://submit-form.com/acpZnk65" method="POST">
+                                <input type="hidden" name="_email.from" value="Parking and Go" />
+                                <input type="hidden" name="_redirect" value="http://localhost/parkingandgo1/enviado.html" />
+                                <input type="hidden" value="" name="_replyto" placeholder="Your email" />
+
+                                <div class="datos">
+                                    <input type="text" name="Nombre" class="text-box" placeholder="Name" required>
+                                    <input type="text" name="Apellidos" class="text-box" placeholder="Nachnamen"
+                                        required>
+                                    <input type="tel" name="Telefono" class="text-box" placeholder="Telefon " required>
+                                    <div class="lieferdatum">
+                                        <p>Lieferdatum</p>
+                                        <input type="date" name="Estancia" class="text-box" placeholder="Bleibe"
+                                            required>
+                                    </div>
+                                    <input type="email" name="Email" class="text-box" placeholder="Email" required>
+                                </div>
+
+                                <div class="select1-ctn">
+                                    <div class="select-box1">
+                                        <p>Wählen Sie die Marke aus</p>
+                                        <div id="cselect">
+                                            <select name="pack_select" required>
+                                                <option selected="yes">-------------</option>
+                                                <option>Alfa Romeo </option>
+                                                <option>Audi </option>
+                                                <option>BMW</option>
+                                                <option>Citroën </option>
+                                                <option>Dacia </option>
+                                                <option>Fiat </option>
+                                                <option>Ford </option>
+                                                <option>Honda</option>
+                                                <option>Hyundai </option>
+                                                <option>Jeep </option>
+                                                <option>Kia </option>
+                                                <option>Land Rover</option>
+                                                <option>Mazda </option>
+                                                <option>Mercedes </option>
+                                                <option>MINI </option>
+                                                <option>Mitsubishi </option>
+                                                <option>Nissan</option>
+                                                <option>Opel </option>
+                                                <option>Peugeot </option>
+                                                <option>Renault</option>
+                                                <option>SsangYong</option>
+                                                <option>SEAT </option>
+                                                <option>Skoda </option>
+                                                <option>Suzuki </option>
+                                                <option>Tesla</option>
+                                                <option>Toyota </option>
+                                                <option>Volkswagen </option>
+                                                <option>Volvo </option>
+                                                <option>Otro </option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="text" name="Modelo" class="text-box" placeholder="Modell" required>
+                                </div>
+                                <div class="select2-ctn">
+                                    <div class="select-box2">
+                                        <p>Wählen Sie den Aufenthalt aus</p>
+                                        <div id="pselect">
+                                            <select name="pack_select" required>
+                                                <option selected="yes">-------------</option>
+                                                <option>Monatlicher </option>
+                                                <option>Wöchentlicher </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="check-box">
+                                    <p>Wählen Sie die Packung</p>
+                                    <div id="check" required>
+                                        <div><input type="checkbox" value="Limpieza" name="pack"> Reinigung</div>
+                                        <div><input type="checkbox" value="Mantenimiento" name="pack"> Wartung
+                                        </div>
+                                        <div><input type="checkbox" value="Aeropuerto" name="pack"> Flughafen</div>
+                                        <div><input type="checkbox" value="Premium" name="pack"> Prämie</div>
+                                    </div>
+                                </div>
+                                <div class="mensaje">
+                                    <textarea name="message" row="5" placeholder="Nachricht"></textarea>
+                                </div>
+                                <div class="privacidad">
+                                    <input type="checkbox" value="Politica" class="check-politica"> Ich habe gelesen und
+                                    Ich akzeptiere das <span><a href="#">Allgemeine Geschäftsbedingungen.</a></span>
+
+                                </div>
+                                <div class="sent">
+                                    <button type="submit" name="Enviar" id="boton-enviar" value="Enviar">
+                                        Senden</button>
+                                </div>
+                                <div class="g-recaptcha" data-sitekey="6Lcpp2wfAAAAAOZVciKVxirfZVeebALB9JzF3SId"></div>
+                            </form>
+                        </div>
+
+                        <div class="contact-info">
+                            <div><i class="fa fa-envelope" aria-hidden="true"></i>contact@parkandgomallorca.com</div>
+                            <div><i class="fa fa-phone" aria-hidden="true"></i>611182454</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="lang-es footer-content">
+            <div class="foot">
+                <div class="box  center box">
+                    <h2>Park and go</h2>
+                </div>
+                <div class="box right box">
+                    <h1>Siguenos</h1>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="last-footer">
+                <a href="Politica.html">Politica de privacidad</a>
+                <a href="politicaEmpresa.html">Política de la Empresa</a>
+                <a href="#" class="copyright">Copyright 2022. Parkingandgomallorca</a>
+            </div>
+        </div>
+        <div class="lang-en footer-content">
+            <div class="foot">
+                <div class="box  center box">
+                    <h2>Park and go</h2>
+                </div>
+                <div class="box right box">
+                    <h1>Follow us</h1>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="last-footer">
+                <a href="Politica.html">Privacy Policy</a>
+                <a href="politicaEmpresa.html">Company policy</a>
+                <a href="#" class="copyright">Copyright 2022. Parkingandgomallorca</a>
+            </div>
+        </div>
+        <div class="lang-de footer-content">
+            <div class="foot">
+                <div class="box  center box">
+                    <h2>Park and go</h2>
+                </div>
+                <div class="box right box">
+                    <h1>Folge uns</h1>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="last-footer">
+                <a href="Politica.html">Datenschutz Bestimmungen</a>
+                <a href="politicaEmpresa.html">Unternehmenspolitik</a>
+                <a href="#" class="copyright">Copyright 2022. Parkingandgomallorca</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/5d8f6b66f9.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
+<script src="js/app.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</html>
