@@ -17,7 +17,7 @@
     color: #3D3D4A;
 }
 
-.btn {
+.btn, .btn_en, .btn_de {
     max-width: 150px;
 }
 
@@ -46,7 +46,6 @@
     grid-template-columns: 1fr;
     justify-content: center;
     user-select: none;
-    /* border-top: #3D3D4A solid 2px;*/
     padding: 30px 0;
 }
 
@@ -184,7 +183,7 @@
     font-weight: 400;
 }
 
-.estancias-ctn .btn {
+.estancias-ctn .btn, .btn_en, .btn_de {
     width: 60%;
     height: 30px;
     color: #3D3D4A;
@@ -343,7 +342,7 @@
     font-weight: 400;
 }
 
-.packs-ctn .btn {
+.packs-ctn .btn, .btn_en, .btn_de {
     width: 60%;
     height: 30px;
     color: #fff;
@@ -506,16 +505,29 @@
 
 .contact-info {
     padding-top: 20px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     line-height: 60px;
     font-size: 13px;
+    color: #3D3D4A;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tel {
+    margin-right: 2vw;
 }
 
 .contact-info i {
-    margin-right: 20px;
+    margin-right: 5px;
     font-size: 20px;
 }
+
 
 .form-contact {
     display: flex;
@@ -538,7 +550,21 @@
     flex-wrap: wrap;
 }
 
+.reserva {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .entrega, .delivery, .lieferdatum {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+}
+
+.recogida, .pickup, .abholdatum {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -556,7 +582,17 @@
     color: #777;
 }
 
-.select1-ctn, .select2-ctn {
+.recogida p, .pickup p, .abholdatum p {
+    position: absolute;
+    z-index: 9;
+    top: 15px;
+    background: #fff;
+    width: calc(90% - 30px);
+    pointer-events: none;
+    color: #777;
+}
+
+.select1-ctn {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -602,18 +638,15 @@
 }
 
 .check-box {
-
-    padding-top: 30px;
-}
-
-.check-box p {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 0 20px 0;
 }
 
 #check {
     justify-items: center;
     font-size: 12px;
-    padding-bottom: 20px;
 }
 
 .select-box1 {
@@ -647,7 +680,7 @@ select {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    padding: 20px;
+    padding: 30px 20px;
     width: 100%;
 }
 
@@ -696,54 +729,7 @@ select {
 
 
 /*FORMULARIO code end*/
-/*PAGINA MENSAJE ENVIADO START*/
-.enviado-ctn {
-    padding: 10px;
-}
 
-.enviado {
-    display: block;
-    position: absolute;
-    top: 250px;
-    border: #173457 0.5px solid;
-    border-radius: 5px;
-}
-
-.enviado h2 {
-    font-size: 17px;
-    margin: 0 10px;
-    font-weight: 500;
-}
-
-.enviado i {
-    display: block;
-    font-size: 25px;
-    text-align: center;
-    color: green;
-    margin: 10px 0;
-}
-
-.boton-atras {
-    margin: 20px 0 10px 0;
-    text-align: center;
-    top: 25px;
-}
-
-.boton-atras p {
-    font-size: 12px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.boton-atras button {
-    padding: 5px 20px;
-    border-radius: 5px;
-    border: 1px solid #173457;
-    cursor: pointer;
-
-}
-
-/*PAGINA MENSAJE ENVIADO END*/
 /*Responsive*/
 @media screen and (min-width:480px) {
 
@@ -762,6 +748,19 @@ select {
         min-width: 300px;
         max-width: 300px;
     }
+    .limpieza .caracteristicas {
+        margin-bottom: 20px;
+
+    }
+    .mantenimiento .caracteristicas {
+        margin-bottom: 20px;
+
+    }
+
+    .aeropuerto .caracteristicas {
+        margin-bottom: 20px;
+
+    }
 
     /*Estancia*/
 
@@ -777,7 +776,7 @@ select {
     }
 
     .contact-info i {
-        margin-right: 20px;
+        margin-right: 10px;
         font-size: 20px;
     }
 
@@ -794,6 +793,10 @@ select {
 
     .select-box1 p, .select-box2 p {
         margin-top: 23px;
+    }
+
+    .check-box {
+        padding-top: 20px;
     }
 
     select {
@@ -814,7 +817,7 @@ select {
         grid-template-columns: repeat(4, 98px);
         justify-items: center;
         font-size: 12px;
-        padding-bottom: 20px;
+        padding: 20px;
     }
 
 }
@@ -822,9 +825,10 @@ select {
 @media screen and (min-width:768px) {
 
     /*SECCIONES*/
-    #seccion1, #seccion3, #seccion4, #seccion5{
+    #seccion1, #seccion3, #seccion4, #seccion5 {
         padding: 20px 40px;
     }
+
     #seccion4 p {
         padding: 0 70px;
     }
@@ -875,46 +879,6 @@ select {
 
 }
 
-
-/*FORMULARIO*/
-
-.select-box1, .select-box2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-}
-
-#pselect, #cselect {
-
-    margin:10px;
-}
-
-.select-box1 p, .select-box2 p {
-    font-size: 12px;
-    margin-top: 15px;
-}
-
-.check-box {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px 0;
-}
-
-.check-box p {
-    text-align: center;
-    width: 100%;
-    padding-bottom: 15px;
-}
-
-
-.contact-form textarea {
-    padding: 12px 40px;
-    max-width: 420px;
-}
-
-
-
 @media screen and (min-width:1024px) {
     .texto h2 {
 
@@ -927,9 +891,14 @@ select {
     }
 
     /*SECCIONES*/
-    #seccion1, #seccion3, #seccion4, #seccion5{
+    #seccion1, #seccion3, #seccion4, #seccion5 {
         padding: 20px 40px;
     }
+
+    #seccion2 h2, #seccion4 h2, #seccion5 h2 {
+        font-size: 25px;
+    }
+
     #seccion4 p {
         padding: 0 165px;
     }
@@ -959,14 +928,30 @@ select {
         font-size: 35px;
     }
 
-    #seccion2 h2, #seccion4 h2, #seccion5 h2 {
-        font-size: 25px;
+    .reserva {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        gap: 10px;
     }
+    .entrega p, .delivery p, .lieferdatum p {
+        width: calc(90% - 50px);
+        font-size: 15px;
+    }
+    .recogida p, .pickup p, .abholdatum p {
+
+        width: calc(90% - 50px);
+        font-size: 15px;
+
+    }
+
+
 
 }
 
 
 @media screen and (min-width:1200px) {
+
     #seccion4 p {
         padding: 0 30px;
     }

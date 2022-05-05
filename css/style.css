@@ -190,5 +190,13 @@ nav {
 
 }
 
-@media screen and (min-width:1200px) {}
+@media screen and (min-width:1200px) {
+    #Name h2 {
+        font-size: 30px;
+    
+    }
+    #Name p {
+        font-size: 20px;
+    }
+}
 

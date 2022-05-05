@@ -1,0 +1,94 @@
+/*PAGINA MENSAJE ENVIADO START*/
+.enviado-ctn {
+    min-height: calc(100vh - 147px - 156.25px);
+    max-width: 1280px;
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enviado {
+    display: block;
+    position: absolute;
+    top: 300px;
+    border: #173457 0.5px solid;
+    border-radius: 5px;
+}
+
+.enviado h2 {
+    font-size: 15px;
+    margin: 0 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.enviado i {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: green;
+    margin: 10px 0;
+}
+
+.boton-atras {
+    margin: 20px 0 10px 0;
+    text-align: center;
+    top: 25px;
+}
+
+.boton-atras p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.boton-atras button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #173457;
+    cursor: pointer;
+
+}
+
+.boton-atras button:hover {
+    color: #fff;
+    background-color: #173457;
+
+
+}
+
+/*PAGINA MENSAJE ENVIADO END*/
+/*Responsive*/
+@media screen and (min-width:480px) {}
+
+@media screen and (min-width:768px) {
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .enviado {
+        min-width: 450px;
+        max-width: 450px;
+    }
+
+    .enviado h2 {
+        font-size: 17px;
+        margin: 0 10px;
+        font-weight: 500;
+    }
+
+    .enviado i {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        color: green;
+        margin: 10px 0;
+    }
+}

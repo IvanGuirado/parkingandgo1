@@ -34,13 +34,13 @@
     background: #FFF;
 }
 
-.semanal_en .btn {
+.semanal_en .btn{
     background: #fff;
     color: #173457;
     border: 2px solid #173457;
 }
 
-.semanal_en .btn:hover {
+.semanal_en .btn :hover {
     background: #173457;
     color: #fff;
     border: 2px solid #173457;
@@ -64,13 +64,13 @@
     background: #ffd861;
 }
 
-.limpieza_en .btn {
+.limpieza_en .btn  {
     background: #fff;
     color: #ffd861;
     border: 2px solid #ffd861;
 }
 
-.limpieza_en .btn:hover {
+.limpieza_en .btn :hover {
     background: #ffd861;
     color: #fff;
     border: 2px solid #ffd861;
@@ -81,13 +81,13 @@
     background: #a26bfa;
 }
 
-.mantenimiento_en .btn {
+.mantenimiento_en .btn  {
     background: #fff;
     color: #a26bfa;
     border: 2px solid #a26bfa;
 }
 
-.mantenimiento_en .btn:hover {
+.mantenimiento_en .btn :hover {
     background: #a26bfa;
     color: #fff;
     border: 2px solid #a26bfa;
@@ -98,13 +98,13 @@
     background: #43ef8b;
 }
 
-.aeropuerto_en .btn {
+.aeropuerto_en .btn  {
     background: #fff;
     color: #43ef8b;
     border: 2px solid #43ef8b;
 }
 
-.aeropuerto_en .btn:hover {
+.aeropuerto_en .btn :hover {
     background: #43ef8b;
     color: #fff;
     border: 2px solid #43ef8b;
@@ -115,13 +115,13 @@
     background: #F5A9A9;
 }
 
-.premium_en .btn {
+.premium_en .btn  {
     background: #fff;
     color: #F5A9A9;
     border: 2px solid #F5A9A9;
 }
 
-.premium_en .btn:hover {
+.premium_en .btn :hover {
     background: #F5A9A9;
     color: #fff;
     border: 2px solid #F5A9A9;
@@ -161,6 +161,21 @@
 }
 
 /*RESPONSIVE ENGLISH*/
+@media screen and (min-width:480px){
+    .limpieza_en .caracteristicas {
+        margin-bottom: 20px;
+
+    }
+    .mantenimiento_en .caracteristicas {
+        margin-bottom: 20px;
+
+    }
+
+    .aeropuerto_en .caracteristicas {
+        margin-bottom: 20px;
+
+    }
+}
 @media screen and (min-width:768px) {
 
 

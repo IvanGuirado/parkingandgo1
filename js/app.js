@@ -1,13 +1,22 @@
 function verContacto() {
     var element = document.querySelector("#seccion5");
     // smooth scroll to element and align it at the bottom
-    element.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 var btn = document.querySelectorAll(".btn");
 for (const b of btn) {
     b.addEventListener("click", verContacto)
 
 }
+
+/*function verContacto() 
+    {  
+      var e = document.getElementById("seccion5");  
+      e.scrollIntoView();  
+    }  */
+
+
+
 //Idiomas
 function doLangSelect(idioma) {
     document.querySelector("html").setAttribute("lang", idioma.substr(0, 2));
@@ -32,11 +41,21 @@ fechaEntrega.addEventListener("change", function () {
     }
 
 });
+var fechaRecogida = document.querySelector(".recogida input")
+fechaRecogida.addEventListener("change", function () {
+    if (fechaRecogida.value) {
+        document.querySelector(".recogida p").classList.add("hidden")
+    }
+    else {
+        document.querySelector(".recogida p").classList.remove("hidden")
+    }
+
+});
 fechaEntrega.addEventListener("focus", function () {
     document.querySelector(".entrega p").classList.add("hidden")
 });
 
-
+//FECHA
 var fechaEntrega_en = document.querySelector(".delivery input")
 fechaEntrega_en.addEventListener("change", function () {
     if (fechaEntrega_en.value) {
