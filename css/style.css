@@ -145,7 +145,7 @@ nav {
     background-color: #3E5066;
 }
 
-.last-footer a {
+.last-footer a, .last-footer span {
     color: #e7e7e7;
     padding: 12px;
     font-size: 12px;
