@@ -17,15 +17,15 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="lang-es">
             <div class="ctn-nav">
                 <div class="nav-bar">
                     <div id="Name">
                         <h2>PARK AND GO</h2>
                         <p>Your car park</p>
                     </div>
-                    <div id="logo">
-                        <a href="index.html"><img src="Imagenes/LOGORe.svg" /></a>
+                    <div class="logo">
+                        <a href="index.html?lang=es"><img src="Imagenes/LOGORe.svg" /></a>
                     </div>
                     <div class="right-menu">
                         <div class="lang-menu">
@@ -52,7 +52,81 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>    
+        </nav>
+        <nav class="lang-en">
+            <div class="ctn-nav">
+                <div class="nav-bar">
+                    <div id="Name">
+                        <h2>PARK AND GO</h2>
+                        <p>Your car park</p>
+                    </div>
+                    <div class="logo">
+                        <a href="index.html?lang=en"><img src="Imagenes/LOGORe.svg" /></a>
+                    </div>
+                    <div class="right-menu">
+                        <div class="lang-menu">
+                            <div class="lang-es selected-lang">
+                                <img src="Imagenes/es.png"> ES
+                            </div>
+                            <div class="lang-en selected-lang">
+                                <img src="Imagenes/gb.png"> EN
+                            </div>
+                            <div class="lang-de selected-lang">
+                                <img src="Imagenes/de.png"> DE
+                            </div>
+                            <ul>
+                                <li class="li-es">
+                                    <span onclick="doLangSelect('es')" class="flag-es">ES</a>
+                                </li>
+                                <li class="li-de">
+                                    <span onclick="doLangSelect('de')" class="flag-de">DE</a>
+                                </li>
+                                <li class="li-en">
+                                    <span onclick="doLangSelect('en')" class="flag-en">EN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </nav>
+        <nav class="lang-de">
+            <div class="ctn-nav">
+                <div class="nav-bar">
+                    <div id="Name">
+                        <h2>PARK AND GO</h2>
+                        <p>Your car park</p>
+                    </div>
+                    <div class="logo">
+                        <a href="index.html?lang=de"><img src="Imagenes/LOGORe.svg" /></a>
+                    </div>
+                    <div class="right-menu">
+                        <div class="lang-menu">
+                            <div class="lang-es selected-lang">
+                                <img src="Imagenes/es.png"> ES
+                            </div>
+                            <div class="lang-en selected-lang">
+                                <img src="Imagenes/gb.png"> EN
+                            </div>
+                            <div class="lang-de selected-lang">
+                                <img src="Imagenes/de.png"> DE
+                            </div>
+                            <ul>
+                                <li class="li-es">
+                                    <span onclick="doLangSelect('es')" class="flag-es">ES</a>
+                                </li>
+                                <li class="li-de">
+                                    <span onclick="doLangSelect('de')" class="flag-de">DE</a>
+                                </li>
+                                <li class="li-en">
+                                    <span onclick="doLangSelect('en')" class="flag-en">EN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>    
         </nav>
     </header>
     <div class="lang-es inicio-wrapper">
@@ -121,7 +195,7 @@
             </div>
         </div>
     </div>
-    <div class="lang-en inicio-wrapper" id="home-layout-box">
+    <div class="lang-en inicio-wrapper" >
         <div class="politica-ctn">
             <div class="politica">
                 <h2>
@@ -215,7 +289,7 @@
             </div>
         </div>
     </div>
-    <div class="lang-de inicio-wrapper" id="home-layout-box">
+    <div class="lang-de inicio-wrapper">
         <div class="politica-ctn">
             <div class="politica">
                 <h2>
@@ -358,8 +432,8 @@
                 </div>
             </div>
             <div class="last-footer">
-                <a href="Politica.html">Politica de privacidad</a>
-                <a href="politicaEmpresa.html">Política de la Empresa</a>
+                <a href="Politica.html?lang=es">Politica de privacidad</a>
+                <a href="politicaEmpresa.html?lang=">Política de la Empresa</a>
                 <a href="#" class="copyright">Copyright 2022. Parkingandgomallorca</a>
             </div>
         </div>
@@ -378,8 +452,8 @@
                 </div>
             </div>
             <div class="last-footer">
-                <a href="Politica.html">Privacy Policy</a>
-                <a href="politicaEmpresa.html">Company policy</a>
+                <a href="Politica.html?lang=en">Privacy Policy</a>
+                <a href="politicaEmpresa.html?lang=en">Company policy</a>
                 <a href="#" class="copyright">Copyright 2022. Parkingandgomallorca</a>
             </div>
         </div>
@@ -398,8 +472,8 @@
                 </div>
             </div>
             <div class="last-footer">
-                <a href="Politica.html">Datenschutz Bestimmungen</a>
-                <a href="politicaEmpresa.html">Unternehmenspolitik</a>
+                <a href="Politica.html?lang=de">Datenschutz Bestimmungen</a>
+                <a href="politicaEmpresa.html?lang=de">Unternehmenspolitik</a>
                 <a href="#" class="copyright">Copyright 2022. Parkingandgomallorca</a>
             </div>
         </div>

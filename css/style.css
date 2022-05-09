@@ -57,13 +57,13 @@ nav {
 }
 
 
-#logo {
+.logo {
     display: flex;
     justify-content: center;
     grid-column-start: 2;
 }
 
-#logo img {
+.logo img {
     width: 120px;
 }
 
@@ -161,7 +161,7 @@ nav {
 
 @media screen and (min-width:768px) {
 
-    #logo {
+    .logo {
         grid-row-start: 1;
         grid-column-start: 1;
     }
@@ -184,7 +184,7 @@ nav {
 }
 
 @media screen and (min-width:1024px) {
-    #logo {
+    .logo {
         margin-right: 140px;
     }
 
