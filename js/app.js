@@ -1,5 +1,5 @@
 function verContacto() {
-    var element = document.querySelector("#seccion5");
+    var element = $(".seccion5:visible")[0];
     // smooth scroll to element and align it at the bottom
     element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
@@ -9,11 +9,6 @@ for (const b of btn) {
 
 }
 
-/*function verContacto() 
-    {  
-      var e = document.getElementById("seccion5");  
-      e.scrollIntoView();  
-    }  */
 
 
 
@@ -31,6 +26,38 @@ function doLangSelect(idioma) {
 if (/^en|^de|^es/.test(navigator.language)) {
     doLangSelect(window.navigator.language);
 }
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+    return false;
+};
+
+var lang1 = getUrlParameter("lang")
+if (lang1) {
+
+    doLangSelect(lang1)
+
+}
+
+//Seleccion de dias anulados
+var today = new Date().toISOString().split('T')[0];
+var inputs = document.querySelectorAll("input[type='date']");
+for (const inp of inputs)
+    inp.setAttribute('min', today);
+
+//Labels fechas
+
 var fechaEntrega = document.querySelector(".entrega input")
 fechaEntrega.addEventListener("change", function () {
     if (fechaEntrega.value) {

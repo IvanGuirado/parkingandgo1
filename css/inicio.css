@@ -5,9 +5,52 @@
     margin: 0 auto;
 }
 
+input[type=text], input[type=tel], input[type=date], input[type=email] {
+    background: #fff;
+    border: 1px solid #ccc;
+    height: 50px;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    text-align: start;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 30%);
+}
+
+input[type=date] {
+    text-align: center;
+
+}
+
+button[type=submit] {
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #173457;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+}
+
+button[type=submit]:hover {
+    background-color: #fff;
+    color: #173457;
+    border: #173457 0.5px solid;
+}
+
 .texto p {
     font-size: 13px;
-    text-align: center;
+    text-align: justify;
     color: #3D3D4A;
 }
 
@@ -75,7 +118,15 @@
     font-size: 20px;
 }
 
-#seccion5 h2 {
+
+.seccion5 {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.seccion5 h2 {
     color: #3D3D4A;
     text-align: center;
     font-size: 20px;
@@ -98,7 +149,7 @@
 }
 
 .estancias-ctn .estancia {
-    background: rgb(219, 219, 219);
+    background-image: linear-gradient(white, #ccc);
     margin: 20px;
     border-radius: 5px;
     min-width: 220px;
@@ -222,7 +273,7 @@
 }
 
 .mensual .estancia-nombre:before {
-    background: rgb(219, 219, 219);
+
     content: "Mensual";
 }
 
@@ -249,7 +300,7 @@
 }
 
 .semanal .estancia-nombre:before {
-    background: rgb(219, 219, 219);
+
     content: "Semanal";
 }
 
@@ -474,18 +525,6 @@
 /*Packs code end*/
 
 
-
-
-
-/*SECCION 5*/
-
-#seccion5 {
-    display: flex;
-    justify-content: center;
-    user-select: none;
-}
-
-
 /*FORMULARIO code start*/
 
 .formulario-container {
@@ -608,20 +647,6 @@
     margin-bottom: 30px;
 }
 
-.contact-form .text-box {
-    background: #fff;
-    border: 0.5px solid #D2D3D5;
-    height: 50px;
-    width: 100%;
-    padding: 12px;
-    font-size: 15px;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-
 
 .contact-form textarea {
     background-color: #fff;
@@ -633,7 +658,7 @@
     width: 100%;
     resize: vertical;
     border-radius: 5px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 30%);
     margin-bottom: 20px;
 }
 
@@ -655,9 +680,6 @@
     margin: 10px 0 30px 0;
 }
 
-.select1-ctn .text-box {
-    margin-bottom: 0;
-}
 
 .select-box2 {
     display: grid;
@@ -698,29 +720,6 @@ select {
     color: #3D3D4A;
 }
 
-#boton-enviar {
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #173457;
-    cursor: pointer;
-    transition: 0.3s;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 500;
-    width: 100px;
-    height: 30px;
-    color: #fff;
-}
-
-#boton-enviar:hover {
-    background-color: #fff;
-    color: #173457;
-    border: #173457 0.5px solid;
-}
 
 #pselect, #cselect {
     display: flex;
@@ -734,7 +733,7 @@ select {
 @media screen and (min-width:480px) {
 
     /*SECCIONES*/
-    #seccion1, #seccion3, #seccion4, #seccion5 {
+    #seccion1, #seccion3, #seccion4, .seccion5 {
         padding: 20px 20px;
     }
 
@@ -748,10 +747,12 @@ select {
         min-width: 300px;
         max-width: 300px;
     }
+
     .limpieza .caracteristicas {
         margin-bottom: 20px;
 
     }
+
     .mantenimiento .caracteristicas {
         margin-bottom: 20px;
 
@@ -825,7 +826,7 @@ select {
 @media screen and (min-width:768px) {
 
     /*SECCIONES*/
-    #seccion1, #seccion3, #seccion4, #seccion5 {
+    #seccion1, #seccion3, #seccion4, .seccion5 {
         padding: 20px 40px;
     }
 
@@ -891,11 +892,11 @@ select {
     }
 
     /*SECCIONES*/
-    #seccion1, #seccion3, #seccion4, #seccion5 {
+    #seccion1, #seccion3, #seccion4, .seccion5 {
         padding: 20px 40px;
     }
 
-    #seccion2 h2, #seccion4 h2, #seccion5 h2 {
+    #seccion2 h2, #seccion4 h2, .seccion5 h2 {
         font-size: 25px;
     }
 
@@ -934,10 +935,12 @@ select {
         width: 100%;
         gap: 10px;
     }
+
     .entrega p, .delivery p, .lieferdatum p {
         width: calc(90% - 50px);
         font-size: 15px;
     }
+
     .recogida p, .pickup p, .abholdatum p {
 
         width: calc(90% - 50px);

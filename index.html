@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <title>Parking</title>
+    <title>Park and Go</title>
 </head>
 
 <body>
@@ -117,7 +117,7 @@
                             </div>
                         </div>
                         <div id="boton-estancia">
-                            <button class="btn estancia-info" id="btn">Más info</button>
+                            <button  class="btn estancia-info" >Más info</button>
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@
                     </div>
                     <div class="info-ctn">
                         <div class="info-area">
-                            <span class="solicita">Solita más información</span>
+                            <span class="solicita">Solicita más información</span>
                         </div>
                     </div>
                     <div id="boton-center">
@@ -289,38 +289,36 @@
                 </div>
             </div>
         </div>
-        <div id="seccion5">
+        <!--action="https://submit-form.com/acpZnk65"-->
+        <div class="seccion5">
             <div class="formulario-container">
                 <div class="formulario">
                     <div class="contact-section">
                         <div class="contact-form">
                             <h2>Contacta con nosotros</h2>
-                            <form class="form-contact" action=https://submit-form.com/acpZnk65 method="POST">
+                            <form class="form-contact" action="https://submit-form.com/acpZnk65" method="POST">
                                 <input type="hidden" name="_email.from" value="Parking and Go" />
                                 <input type="hidden" name="_redirect"
-                                    value="http://parkandgomallorca.com/enviado.html" />
+                                    value="http://localhost/parkingandgo1/enviado.html?lang=es" />
                                 <input type="hidden" value="" name="_replyto" placeholder="Your email" />
 
                                 <div class="datos">
-                                    <input type="text" name="Nombre" class="text-box" placeholder="Nombre"
-                                        pattern="[Aa-Zz]" required>
-                                    <input type="text" name="Apellidos" class="text-box" placeholder="Apellidos"
-                                        pattern="[Aa-Zz]" required>
-                                    <input type="tel" name="Telefono" class="text-box" placeholder="Teléfono (+34)"
-                                        pattern="[0-9]{9}" required>
+                                    <input type="text" name="Nombre" placeholder="Nombre" pattern="[Aa-Zz]" required>
+                                    <input type="text" name="Apellidos" placeholder="Apellidos" pattern="[Aa-Zz]"
+                                        required>
+                                    <input type="tel" name="Telefono" placeholder="Teléfono" pattern="[0-9]{9}"
+                                        required>
                                     <div class="reserva">
                                         <div class="entrega">
                                             <p>Fecha de entrega</p>
-                                            <input type="date" name="Estancia" class="text-box" placeholder="Entrega"
-                                                required>
+                                            <input type="date" name="entrega" placeholder="Entrega" required>
                                         </div>
                                         <div class="recogida">
                                             <p>Fecha de recogida</p>
-                                            <input type="date" name="Estancia" class="text-box" placeholder="Recogida"
-                                                required>
+                                            <input type="date" name="recogida" placeholder="Recogida" required>
                                         </div>
                                     </div>
-                                    <input type="email" name="Email" class="text-box" placeholder="Email" required>
+                                    <input type="email" name="Email" placeholder="Email" required>
                                 </div>
 
                                 <div class="select1-ctn">
@@ -329,40 +327,40 @@
                                         <div id="cselect">
                                             <select name="pack_select" required>
                                                 <option selected="yes">-------------</option>
-                                                <option>Alfa Romeo </option>
-                                                <option>Audi </option>
-                                                <option>BMW</option>
-                                                <option>Citroën </option>
-                                                <option>Dacia </option>
-                                                <option>Fiat </option>
-                                                <option>Ford </option>
-                                                <option>Honda</option>
-                                                <option>Hyundai </option>
-                                                <option>Jeep </option>
-                                                <option>Kia </option>
-                                                <option>Land Rover</option>
-                                                <option>Mazda </option>
-                                                <option>Mercedes </option>
-                                                <option>MINI </option>
-                                                <option>Mitsubishi </option>
-                                                <option>Nissan</option>
-                                                <option>Opel </option>
-                                                <option>Peugeot </option>
-                                                <option>Renault</option>
-                                                <option>SsangYong</option>
-                                                <option>SEAT </option>
-                                                <option>Skoda </option>
-                                                <option>Suzuki </option>
-                                                <option>Tesla</option>
-                                                <option>Toyota </option>
-                                                <option>Volkswagen </option>
-                                                <option>Volvo </option>
-                                                <option>Otro </option>
+                                                <option value="alfaromeo">Alfa Romeo </option>
+                                                <option value="audi">Audi </option>
+                                                <option value="bmw">BMW</option>
+                                                <option value="citroen">Citroën </option>
+                                                <option value="dacia">Dacia </option>
+                                                <option value="fiat">Fiat </option>
+                                                <option value="ford">Ford </option>
+                                                <option value="honda">Honda</option>
+                                                <option value="hyundai">Hyundai </option>
+                                                <option value="jeep">Jeep </option>
+                                                <option value="kia">Kia </option>
+                                                <option value="landrover">Land Rover</option>
+                                                <option value="mazda">Mazda </option>
+                                                <option value="mercedes">Mercedes </option>
+                                                <option value="mini">MINI </option>
+                                                <option value="mitsubishi">Mitsubishi </option>
+                                                <option value="nissan">Nissan</option>
+                                                <option value="opel">Opel </option>
+                                                <option value="peugeot">Peugeot </option>
+                                                <option value="renault">Renault</option>
+                                                <option value="ssangyong">SsangYong</option>
+                                                <option value="seat">SEAT </option>
+                                                <option value="skoda">Skoda </option>
+                                                <option value="suzuki">Suzuki </option>
+                                                <option value="tesla">Tesla</option>
+                                                <option value="toyota">Toyota </option>
+                                                <option value="volkswagen">Volkswagen </option>
+                                                <option value="volvo">Volvo </option>
+                                                <option value="otro">Otro </option>
 
                                             </select>
                                         </div>
                                     </div>
-                                    <input type="text" name="Modelo" class="text-box" placeholder="Modelo" required>
+                                    <input type="text" name="Modelo" placeholder="Modelo" required>
                                 </div>
                                 <div class="check-box">
                                     <p>Seleccione el pack</p>
@@ -382,18 +380,20 @@
                                     acepto los <span><a href="Politica.html">términos y condiciones de uso.</a></span>
 
                                 </div>
+                                <br>
+                                <div class="g-recaptcha" data-sitekey="6Lcpp2wfAAAAAOZVciKVxirfZVeebALB9JzF3SId"></div>
                                 <div class="sent">
-                                    <button type="submit" name="Enviar" id="boton-enviar" value="Enviar">
+                                    <button type="submit" name="Enviar" value="Enviar">
                                         Enviar</button>
                                 </div>
-                                <div class="g-recaptcha" data-sitekey="6Lcpp2wfAAAAAOZVciKVxirfZVeebALB9JzF3SId"></div>
+                                
                             </form>
                         </div>
 
                         <div class="contact-info">
                             <div class="info mail"><i class="fa fa-envelope"
                                     aria-hidden="true"></i>contact@parkandgomallorca.com</div>
-                            <div class="info tel"><i class="fa fa-phone" aria-hidden="true"></i>611182454</div>
+                            <div class="info tel"><i class="fa fa-phone" aria-hidden="true"></i>+34 611182454</div>
                         </div>
                     </div>
                 </div>
@@ -644,7 +644,7 @@
                 </div>
             </div>
         </div>
-        <div id="seccion5">
+        <div class="seccion5">
             <div class="formulario-container">
                 <div class="formulario">
                     <div class="contact-section">
@@ -653,29 +653,26 @@
                             <form class="form-contact" action="https://submit-form.com/acpZnk65" method="POST">
                                 <input type="hidden" name="_email.from" value="Parking and Go" />
                                 <input type="hidden" name="_redirect"
-                                    value="https://parkandgomallorca.com/enviado.html" />
+                                    value="http://localhost/parkingandgo1//enviado.html?lang=en" />
                                 <input type="hidden" value="" name="_replyto" placeholder="Your email" />
 
                                 <div class="datos">
-                                    <input type="text" name="Nombre" class="text-box" placeholder="Name"
-                                        pattern="[Aa-Zz]" required>
-                                    <input type="text" name="Apellidos" class="text-box" placeholder="Surname"
-                                        pattern="[Aa-Zz]" required>
-                                    <input type="tel" name="Telefono" class="text-box" placeholder="Telephone (+34)"
-                                        pattern="[0-9]{9}" required>
+                                    <input type="text" name="Nombre" placeholder="Name" pattern="[Aa-Zz]" required>
+                                    <input type="text" name="Apellidos" placeholder="Surname" pattern="[Aa-Zz]"
+                                        required>
+                                    <input type="tel" name="Telefono" placeholder="Telephone" pattern="[0-9]{9}"
+                                        required>
                                     <div class="reserva">
                                         <div class="delivery">
                                             <p>Delivery date</p>
-                                            <input type="date" name="Estancia" class="text-box" placeholder="Stay"
-                                                required>
+                                            <input type="date" name="entrega" placeholder="Stay" required>
                                         </div>
                                         <div class="pickup">
                                             <p>Pick up date</p>
-                                            <input type="date" name="Estancia" class="text-box" placeholder="Pick up"
-                                                required>
+                                            <input type="date" name="recogida" placeholder="Pick up" required>
                                         </div>
                                     </div>
-                                    <input type="email" name="Email" class="text-box" placeholder="Email" required>
+                                    <input type="email" name="Email" placeholder="Email" required>
                                 </div>
 
                                 <div class="select1-ctn">
@@ -684,40 +681,40 @@
                                         <div id="cselect">
                                             <select name="pack_select" required>
                                                 <option selected="yes">-------------</option>
-                                                <option>Alfa Romeo </option>
-                                                <option>Audi </option>
-                                                <option>BMW</option>
-                                                <option>Citroën </option>
-                                                <option>Dacia </option>
-                                                <option>Fiat </option>
-                                                <option>Ford </option>
-                                                <option>Honda</option>
-                                                <option>Hyundai </option>
-                                                <option>Jeep </option>
-                                                <option>Kia </option>
-                                                <option>Land Rover</option>
-                                                <option>Mazda </option>
-                                                <option>Mercedes </option>
-                                                <option>MINI </option>
-                                                <option>Mitsubishi </option>
-                                                <option>Nissan</option>
-                                                <option>Opel </option>
-                                                <option>Peugeot </option>
-                                                <option>Renault</option>
-                                                <option>SsangYong</option>
-                                                <option>SEAT </option>
-                                                <option>Skoda </option>
-                                                <option>Suzuki </option>
-                                                <option>Tesla</option>
-                                                <option>Toyota </option>
-                                                <option>Volkswagen </option>
-                                                <option>Volvo </option>
-                                                <option>Otro </option>
+                                                <option value="alfaromeo">Alfa Romeo </option>
+                                                <option value="audi">Audi </option>
+                                                <option value="bmw">BMW</option>
+                                                <option value="citroen">Citroën </option>
+                                                <option value="dacia">Dacia </option>
+                                                <option value="fiat">Fiat </option>
+                                                <option value="ford">Ford </option>
+                                                <option value="honda">Honda</option>
+                                                <option value="hyundai">Hyundai </option>
+                                                <option value="jeep">Jeep </option>
+                                                <option value="kia">Kia </option>
+                                                <option value="landrover">Land Rover</option>
+                                                <option value="mazda">Mazda </option>
+                                                <option value="mercedes">Mercedes </option>
+                                                <option value="mini">MINI </option>
+                                                <option value="mitsubishi">Mitsubishi </option>
+                                                <option value="nissan">Nissan</option>
+                                                <option value="opel">Opel </option>
+                                                <option value="peugeot">Peugeot </option>
+                                                <option value="renault">Renault</option>
+                                                <option value="ssangyong">SsangYong</option>
+                                                <option value="seat">SEAT </option>
+                                                <option value="skoda">Skoda </option>
+                                                <option value="suzuki">Suzuki </option>
+                                                <option value="tesla">Tesla</option>
+                                                <option value="toyota">Toyota </option>
+                                                <option value="volkswagen">Volkswagen </option>
+                                                <option value="volvo">Volvo </option>
+                                                <option value="otro">Otro </option>
 
                                             </select>
                                         </div>
                                     </div>
-                                    <input type="text" name="Modelo" class="text-box" placeholder="Model" required>
+                                    <input type="text" name="Modelo" placeholder="Model" required>
                                 </div>
                                 <div class="check-box">
                                     <p>Choose a pack</p>
@@ -738,17 +735,19 @@
                                     <span><a href="Politica.html">accept the terms and conditions of use.</a></span>
 
                                 </div>
+                                <br>
+                                <div class="g-recaptcha" data-sitekey="6Lcpp2wfAAAAAOZVciKVxirfZVeebALB9JzF3SId"></div>
                                 <div class="sent">
-                                    <button type="submit" name="Enviar" id="boton-enviar" value="Enviar">
+                                    <button type="submit" name="Enviar" value="Enviar">
                                         Sent</button>
                                 </div>
-                                <div class="g-recaptcha" data-sitekey="6Lcpp2wfAAAAAOZVciKVxirfZVeebALB9JzF3SId"></div>
+                                
                             </form>
                         </div>
 
                         <div class="contact-info">
                             <div><i class="fa fa-envelope" aria-hidden="true"></i>contact@parkandgomallorca.com</div>
-                            <div><i class="fa fa-phone" aria-hidden="true"></i>611182454</div>
+                            <div><i class="fa fa-phone" aria-hidden="true"></i>+34 611182454</div>
                         </div>
                     </div>
                 </div>
@@ -992,7 +991,7 @@
                 </div>
             </div>
         </div>
-        <div id="seccion5">
+        <div class="seccion5">
             <div class="formulario-container">
                 <div class="formulario">
                     <div class="contact-section">
@@ -1001,29 +1000,25 @@
                             <form class="form-contact" action="https://submit-form.com/acpZnk65" method="POST">
                                 <input type="hidden" name="_email.from" value="Parking and Go" />
                                 <input type="hidden" name="_redirect"
-                                    value="http://parkandgomallorca.com/enviado.html" />
+                                    value="http://localhost/parkingandgo1//enviado.html?lang=de" />
                                 <input type="hidden" value="" name="_replyto" placeholder="Your email" />
 
                                 <div class="datos">
-                                    <input type="text" name="Nombre" class="text-box" placeholder="Name"
-                                        pattern="[Aa-Zz]" required>
-                                    <input type="text" name="Apellidos" class="text-box" placeholder="Nachnamen"
-                                        pattern="[Aa-Zz]" required>
-                                    <input type="tel" name="Telefono" class="text-box" placeholder="Telefon (+34)"
-                                        pattern="[0-9]{9}" required>
+                                    <input type="text" name="Nombre" placeholder="Name" pattern="[Aa-Zz]" required>
+                                    <input type="text" name="Apellidos" placeholder="Nachnamen" pattern="[Aa-Zz]"
+                                        required>
+                                    <input type="tel" name="Telefono" placeholder="Telefon" pattern="[0-9]{9}" required>
                                     <div class="reserva">
                                         <div class="lieferdatum">
                                             <p>Lieferdatum</p>
-                                            <input type="date" name="Estancia" class="text-box" placeholder="Bleibe"
-                                                required>
+                                            <input type="date" name="entrega" placeholder="Bleibe" required>
                                         </div>
                                         <div class="abholdatum">
                                             <p>Abholdatum</p>
-                                            <input type="date" name="Estancia" class="text-box" placeholder="Abholung"
-                                                required>
+                                            <input type="date" name="recogida" placeholder="Abholung" required>
                                         </div>
                                     </div>
-                                    <input type="email" name="Email" class="text-box" placeholder="Email" required>
+                                    <input type="email" name="Email" placeholder="Email" required>
                                 </div>
 
                                 <div class="select1-ctn">
@@ -1032,40 +1027,40 @@
                                         <div id="cselect">
                                             <select name="pack_select" required>
                                                 <option selected="yes">-------------</option>
-                                                <option>Alfa Romeo </option>
-                                                <option>Audi </option>
-                                                <option>BMW</option>
-                                                <option>Citroën </option>
-                                                <option>Dacia </option>
-                                                <option>Fiat </option>
-                                                <option>Ford </option>
-                                                <option>Honda</option>
-                                                <option>Hyundai </option>
-                                                <option>Jeep </option>
-                                                <option>Kia </option>
-                                                <option>Land Rover</option>
-                                                <option>Mazda </option>
-                                                <option>Mercedes </option>
-                                                <option>MINI </option>
-                                                <option>Mitsubishi </option>
-                                                <option>Nissan</option>
-                                                <option>Opel </option>
-                                                <option>Peugeot </option>
-                                                <option>Renault</option>
-                                                <option>SsangYong</option>
-                                                <option>SEAT </option>
-                                                <option>Skoda </option>
-                                                <option>Suzuki </option>
-                                                <option>Tesla</option>
-                                                <option>Toyota </option>
-                                                <option>Volkswagen </option>
-                                                <option>Volvo </option>
-                                                <option>Otro </option>
+                                                <option value="alfaromeo">Alfa Romeo </option>
+                                                <option value="audi">Audi </option>
+                                                <option value="bmw">BMW</option>
+                                                <option value="citroen">Citroën </option>
+                                                <option value="dacia">Dacia </option>
+                                                <option value="fiat">Fiat </option>
+                                                <option value="ford">Ford </option>
+                                                <option value="honda">Honda</option>
+                                                <option value="hyundai">Hyundai </option>
+                                                <option value="jeep">Jeep </option>
+                                                <option value="kia">Kia </option>
+                                                <option value="landrover">Land Rover</option>
+                                                <option value="mazda">Mazda </option>
+                                                <option value="mercedes">Mercedes </option>
+                                                <option value="mini">MINI </option>
+                                                <option value="mitsubishi">Mitsubishi </option>
+                                                <option value="nissan">Nissan</option>
+                                                <option value="opel">Opel </option>
+                                                <option value="peugeot">Peugeot </option>
+                                                <option value="renault">Renault</option>
+                                                <option value="ssangyong">SsangYong</option>
+                                                <option value="seat">SEAT </option>
+                                                <option value="skoda">Skoda </option>
+                                                <option value="suzuki">Suzuki </option>
+                                                <option value="tesla">Tesla</option>
+                                                <option value="toyota">Toyota </option>
+                                                <option value="volkswagen">Volkswagen </option>
+                                                <option value="volvo">Volvo </option>
+                                                <option value="otro">Otro </option>
 
                                             </select>
                                         </div>
                                     </div>
-                                    <input type="text" name="Modelo" class="text-box" placeholder="Modell" required>
+                                    <input type="text" name="Modelo" placeholder="Modell" required>
                                 </div>
                                 <div class="check-box">
                                     <p>Wählen Sie die Packung</p>
@@ -1087,17 +1082,19 @@
                                             Geschäftsbedingungen.</a></span>
 
                                 </div>
+                                <br>
+                                <div class="g-recaptcha" data-sitekey="6Lcpp2wfAAAAAOZVciKVxirfZVeebALB9JzF3SId"></div>
                                 <div class="sent">
-                                    <button type="submit" name="Enviar" id="boton-enviar" value="Enviar">
+                                    <button type="submit" name="Enviar"  value="Enviar">
                                         Senden</button>
                                 </div>
-                                <div class="g-recaptcha" data-sitekey="6Lcpp2wfAAAAAOZVciKVxirfZVeebALB9JzF3SId"></div>
+                                
                             </form>
                         </div>
 
                         <div class="contact-info">
                             <div><i class="fa fa-envelope" aria-hidden="true"></i>contact@parkandgomallorca.com</div>
-                            <div><i class="fa fa-phone" aria-hidden="true"></i>611182454</div>
+                            <div><i class="fa fa-phone" aria-hidden="true"></i>+34 611182454</div>
                         </div>
                     </div>
                 </div>

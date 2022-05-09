@@ -24,7 +24,6 @@
 }
 
 .mensual_en .estancia-nombre:before {
-    background: rgb(219, 219, 219);
     content: "Monthly";
 }
 
@@ -40,7 +39,7 @@
     border: 2px solid #173457;
 }
 
-.semanal_en .btn :hover {
+.semanal_en .btn:hover {
     background: #173457;
     color: #fff;
     border: 2px solid #173457;
@@ -51,7 +50,6 @@
 }
 
 .semanal_en .estancia-nombre:before {
-    background: rgb(219, 219, 219);
     content: "Weekly";
 }
 
@@ -70,7 +68,7 @@
     border: 2px solid #ffd861;
 }
 
-.limpieza_en .btn :hover {
+.limpieza_en .btn:hover {
     background: #ffd861;
     color: #fff;
     border: 2px solid #ffd861;
@@ -87,7 +85,7 @@
     border: 2px solid #a26bfa;
 }
 
-.mantenimiento_en .btn :hover {
+.mantenimiento_en .btn:hover {
     background: #a26bfa;
     color: #fff;
     border: 2px solid #a26bfa;
@@ -104,7 +102,7 @@
     border: 2px solid #43ef8b;
 }
 
-.aeropuerto_en .btn :hover {
+.aeropuerto_en .btn:hover {
     background: #43ef8b;
     color: #fff;
     border: 2px solid #43ef8b;
@@ -121,7 +119,7 @@
     border: 2px solid #F5A9A9;
 }
 
-.premium_en .btn :hover {
+.premium_en .btn:hover {
     background: #F5A9A9;
     color: #fff;
     border: 2px solid #F5A9A9;
@@ -299,7 +297,6 @@
 }
 
 .mensual_de .estancia-nombre:before {
-    background: rgb(219, 219, 219);
     content: "Monatlicher";
 }
 
@@ -326,7 +323,6 @@
 }
 
 .semanal_de .estancia-nombre:before {
-    background: rgb(219, 219, 219);
     content: "Wöchentlicher";
 }
 
