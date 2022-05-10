@@ -845,7 +845,7 @@ select {
 
     .limpieza .caracteristicas {
         padding-bottom: 0px;
-        margin-bottom: 166px;
+        margin-bottom: 169px;
 
     }
 
@@ -860,7 +860,7 @@ select {
     }
 
     .premium .info-ctn {
-        margin-top: 146px;
+        margin-top: 144px;
     }
 
     /*Estancias*/
@@ -878,6 +878,12 @@ select {
         margin-bottom: 34px;
     }
 
+    /*FORMULARIO*/
+    #check {
+
+        grid-template-columns: repeat(4, 110px);
+        font-size: 13px;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -939,13 +945,14 @@ select {
     .entrega p, .delivery p, .lieferdatum p {
         width: calc(90% - 50px);
         font-size: 15px;
+        margin-right: 17px;
     }
 
     .recogida p, .pickup p, .abholdatum p {
 
         width: calc(90% - 50px);
         font-size: 15px;
-
+        margin-right: 17px;
     }
 
 
@@ -982,7 +989,7 @@ select {
 
     .aeropuerto .caracteristicas {
         padding-bottom: 0px;
-        margin-bottom: 38px;
+        margin-bottom: 37px;
     }
 
     .mantenimiento .caracteristicas {

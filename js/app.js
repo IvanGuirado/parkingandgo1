@@ -50,6 +50,19 @@ if (lang1) {
 
 }
 
+//RECAPTCHA
+/*
+
+ // To change it to German
+setCaptchaLang(document.getElementById("recaptcha-container"), "de");
+
+// To change it to English
+setCaptchaLang(document.getElementById("recaptcha-container"), "en");
+
+*/
+
+
+
 //Seleccion de dias anulados
 var today = new Date().toISOString().split('T')[0];
 var inputs = document.querySelectorAll("input[type='date']");
@@ -66,8 +79,14 @@ fechaEntrega.addEventListener("change", function () {
     else {
         document.querySelector(".entrega p").classList.remove("hidden")
     }
-
 });
+
+
+fechaEntrega.addEventListener("focus", function () {
+    document.querySelector(".entrega p").classList.add("hidden")
+});
+
+
 var fechaRecogida = document.querySelector(".recogida input")
 fechaRecogida.addEventListener("change", function () {
     if (fechaRecogida.value) {
@@ -76,10 +95,10 @@ fechaRecogida.addEventListener("change", function () {
     else {
         document.querySelector(".recogida p").classList.remove("hidden")
     }
-
 });
-fechaEntrega.addEventListener("focus", function () {
-    document.querySelector(".entrega p").classList.add("hidden")
+
+fechaRecogida.addEventListener("focus", function () {
+    document.querySelector(".recogida p").classList.add("hidden")
 });
 
 //FECHA
@@ -91,12 +110,24 @@ fechaEntrega_en.addEventListener("change", function () {
     else {
         document.querySelector(".delivery p").classList.remove("hidden")
     }
-
 });
 fechaEntrega_en.addEventListener("focus", function () {
     document.querySelector(".delivery p").classList.add("hidden")
 });
 
+var fechaRecogida_en = document.querySelector(".pickup input")
+fechaRecogida_en.addEventListener("change", function () {
+    if (fechaRecogida_en.value) {
+        document.querySelector(".pickup p").classList.add("hidden")
+    }
+    else {
+        document.querySelector(".pickup p").classList.remove("hidden")
+    }
+});
+
+fechaRecogida_en.addEventListener("focus", function () {
+    document.querySelector(".pickup p").classList.add("hidden")
+});
 
 var fechaEntrega_de = document.querySelector(".lieferdatum input")
 fechaEntrega_de.addEventListener("change", function () {
@@ -106,9 +137,22 @@ fechaEntrega_de.addEventListener("change", function () {
     else {
         document.querySelector(".lieferdatum p").classList.remove("hidden")
     }
-
 });
 fechaEntrega_de.addEventListener("focus", function () {
     document.querySelector(".lieferdatum p").classList.add("hidden")
+});
+
+var fechaRecogida_de = document.querySelector(".abholdatum input")
+fechaRecogida_de.addEventListener("change", function () {
+    if (fechaRecogida_de.value) {
+        document.querySelector(".abholdatum p").classList.add("hidden")
+    }
+    else {
+        document.querySelector(".abholdatum p").classList.remove("hidden")
+    }
+});
+
+fechaRecogida_de.addEventListener("focus", function () {
+    document.querySelector(".abholdatum p").classList.add("hidden")
 });
 
