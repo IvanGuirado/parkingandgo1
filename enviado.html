@@ -6,7 +6,6 @@
     <meta http-equiv=x-ua-compatible content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="css\style.css" type="text/css">
-    <link rel="stylesheet" href="css\inicio.css" type="text/css">
     <link rel="stylesheet" href="css\idiomas.css" type="text/css">
     <link rel="stylesheet" href="css\enviado.css" type="text/css">
     <link rel="stylesheet" href="css\recaptcha.css" type="text/css">
@@ -130,12 +129,13 @@
     </header>
     <div class="lang-es enviado-ctn">
         <div class="wrapper">
-            <form class="enviado" action="http://localhost/parkingandgo1/index.html?lang=es">
+            <form class="enviado" action="http://localhost/parkingandgo1/index.html">
+                <input type="hidden" name="lang" value="es">
                 <i class="fa fa-check"></i>
                 <h2>Su reserva se ha realizado con exito, en breve nos pondremos en contacto con usted.</h2>
                 <div class="boton-atras">
                     <p>Volver atrás</p>
-                    <button action="http://localhost/parkingandgo1/index.html?lang=es" name="" value="Volver">
+                    <button  name="" value="Volver">
                         Inicio</button>
                 </div>
             </form>
@@ -143,12 +143,13 @@
     </div>
     <div class="lang-en enviado-ctn">
         <div class="wrapper">
-            <form class="enviado" action="http://localhost/parkingandgo1/index.html?lang=en">
+            <form class="enviado" action="http://localhost/parkingandgo1/index.html">
+                <input type="hidden" name="lang" value="en">
                 <i class="fa fa-check"></i>
                 <h2>Your reservation has been made successfully, we will contact you shortly.</h2>
                 <div class="boton-atras">
                     <p>Go back</p>
-                    <button action="http://localhost/parkingandgo1/index.html?lang=en" name="" value="Volver">
+                    <button name="" value="Volver">
                         Start</button>
                 </div>
             </form>
@@ -156,15 +157,16 @@
     </div>
     <div class="lang-de enviado-ctn">
         <div class="wrapper">
-            <form class="enviado" action="http://localhost/parkingandgo1/index.html?lang=de">
+            <form class="enviado" action="http://localhost/parkingandgo1/index.html">
+                <input type="hidden" name="lang" value="de">
                 <i class="fa fa-check"></i>
                 <h2>Ihre Reservierung wurde erfolgreich durchgeführt, wir werden uns in Kürze mit Ihnen in
                     Verbindung
                     setzen.</h2>
                 <div class="boton-atras">
                     <p>Geh zurück</p>
-                    <button action="http://localhost/parkingandgo1/index.html?lang=de" name="" value="Volver">
-                        Start</button>
+                    <button name="" value="Volver">
+                        der Beginn</button>
                 </div>
             </form>
         </div>
@@ -173,7 +175,7 @@
         <div class="lang-es footer-content">
             <div class="foot">
                 <div class="box  center box">
-                    <h2>Park and go</h2>
+                    <img src="Imagenes/Logos/logo_gris.png" />
                 </div>
                 <div class="box right box">
                     <h1>Siguenos</h1>
@@ -187,13 +189,13 @@
             <div class="last-footer">
                 <a href="Politica.html?lang=es">Politica de privacidad</a>
                 <a href="politicaEmpresa.html?lang=es">Política de la Empresa</a>
-                <a href="#" class="copyright">Copyright 2022. Parkingandgomallorca</a>
+                <span>Copyright 2022. Parkandgomallorca</span>
             </div>
         </div>
         <div class="lang-en footer-content">
             <div class="foot">
                 <div class="box  center box">
-                    <h2>Park and go</h2>
+                    <img src="Imagenes/Logos/logo_gris.png" />
                 </div>
                 <div class="box right box">
                     <h1>Follow us</h1>
@@ -207,13 +209,13 @@
             <div class="last-footer">
                 <a href="Politica.html?lang=en">Privacy Policy</a>
                 <a href="politicaEmpresa.html?lang=en">Company policy</a>
-                <a href="#" class="copyright">Copyright 2022. Parkingandgomallorca</a>
+                <span>Copyright 2022. Parkgandgomallorca</span>
             </div>
         </div>
         <div class="lang-de footer-content">
             <div class="foot">
                 <div class="box  center box">
-                    <h2>Park and go</h2>
+                    <img src="Imagenes/Logos/logo_gris.png" />
                 </div>
                 <div class="box right box">
                     <h1>Folge uns</h1>
@@ -227,7 +229,7 @@
             <div class="last-footer">
                 <a href="Politica.html?lang=de">Datenschutz Bestimmungen</a>
                 <a href="politicaEmpresa.html?lang=de">Unternehmenspolitik</a>
-                <a href="#" class="copyright">Copyright 2022. Parkingandgomallorca</a>
+                <span>Copyright 2022. Parkandgomallorca</span>
             </div>
         </div>
     </footer>

@@ -9,17 +9,49 @@ for (const b of btn) {
 
 }
 
+/**
+ * Cambie dinámicamente el idioma de ReCaptcha dentro del contenedor seleccionado.
+ * 
+ * @param recaptchaContainer 
+ * @param lang 
+ */
+function setCaptchaLang(recaptchaContainer, lang) {
+    lang = lang || "es";
+    if (!recaptchaContainer)
+        return;
 
+    // 1. Busque el iframe de ReCaptcha
+    const iframeGoogleCaptcha = recaptchaContainer.querySelector('iframe');
+    if (!iframeGoogleCaptcha)
+        return;
 
+    // 2. Recuperar el idioma actual
+    const currentLang = iframeGoogleCaptcha.getAttribute("src").match(/hl=(.*?)&/).pop();
+
+    // 3. Verifique si el idioma que desea configurar es diferente al actual
+    if (currentLang !== lang) {
+        // 4. Si es así, cámbialo
+        iframeGoogleCaptcha.setAttribute(
+            "src",
+            iframeGoogleCaptcha.getAttribute("src").replace(
+                /hl=(.*?)&/,
+                'hl=' + lang + '&'
+            )
+        );
+    }
+}
+
+var lang = "es";
 
 //Idiomas
 function doLangSelect(idioma) {
+    lang = idioma;
     document.querySelector("html").setAttribute("lang", idioma.substr(0, 2));
     document.querySelector("html").classList.add("hide-langmenu");
     setTimeout(function () {
         document.querySelector("html").classList.remove("hide-langmenu");
     }, 500)
-
+    setCaptchaLang($(".g-recaptcha:visible")[0], idioma.substr(0, 2))
 }
 
 // se establece el idioma según configuración de navegador
@@ -49,6 +81,11 @@ if (lang1) {
     doLangSelect(lang1)
 
 }
+
+var s = document.createElement("script")
+s.defer = true;
+s.src = "https://www.google.com/recaptcha/api.js?hl=" + lang.substr(0, 2)
+document.body.appendChild(s)
 
 //RECAPTCHA
 /*
