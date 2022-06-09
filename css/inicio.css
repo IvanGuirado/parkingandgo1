@@ -149,7 +149,7 @@ button[type=submit]:hover {
 }
 
 .estancias-ctn .estancia {
-    background-image: linear-gradient(white, #ccc);
+    background:#dcdbdb;
     margin: 20px;
     border-radius: 5px;
     min-width: 220px;
@@ -215,7 +215,7 @@ button[type=submit]:hover {
     position: absolute;
     content: "Estancia";
     left: 50%;
-    background: #fff;
+    background: #dcdbdb;
     font-size: 20px;
     font-weight: 500;
     padding: 0 10px;
@@ -552,6 +552,7 @@ button[type=submit]:hover {
     color: #3D3D4A;
 }
 
+
 .info {
     display: flex;
     align-items: center;
@@ -813,12 +814,13 @@ select {
     }
 
     #check {
-        display: grid;
+        display: flex;
+        width: 100%;
         margin-left: 0;
-        grid-template-columns: repeat(4, 98px);
-        justify-items: center;
+        white-space: nowrap;
         font-size: 12px;
         padding: 20px;
+        justify-content: space-evenly;
     }
 
 }
@@ -881,7 +883,6 @@ select {
     /*FORMULARIO*/
     #check {
 
-        grid-template-columns: repeat(4, 110px);
         font-size: 13px;
     }
 }
@@ -970,6 +971,7 @@ select {
         padding: 10px 0 0 0;
     }
 
+
     .packs-ctn {
         display: flex;
         justify-content: center;
@@ -999,6 +1001,9 @@ select {
 
     .premium .info-ctn {
         margin-top: 185px;
+    }
+    #check {
+        justify-content: space-between;
     }
 
 }
