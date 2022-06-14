@@ -55,6 +55,61 @@
 
 /*ESTANCIAS code end*/
 
+/*BONOS code start*/
+/*12 MESES*/
+.docemeses_en .precio-area,
+.docemeses_en .area-ctn {
+    background: #FFF;
+}
+
+.docemeses_en .btn {
+    background: #fff;
+    color: #173457;
+    border: 2px solid #173457;
+}
+
+.docemeses_en .btn:hover {
+    background: #173457;
+    color: #fff;
+    border: 2px solid #173457;
+}
+
+.docemeses_en .bono-nombre {
+    background: #173457;
+}
+
+.docemeses_en .bono-nombre:before {
+    content: "6 Months";
+}
+
+/*6 months*/
+.seismeses_en .precio-area,
+.seismeses_en .area-ctn {
+    background: #FFF;
+}
+
+.seismeses_en .btn{
+    background: #fff;
+    color: #173457;
+    border: 2px solid #173457;
+}
+
+.seismeses_en .btn:hover {
+    background: #173457;
+    color: #fff;
+    border: 2px solid #173457;
+}
+
+.seismeses_en .bono-nombre {
+    background: #173457;
+}
+
+.seismeses_en .bono-nombre:before {
+    content: "Weekly";
+}
+
+/*BONOS code end*/
+
 /*Packs code start*/
 
 .limpieza_en .precio-area,
@@ -214,6 +269,21 @@
         margin-bottom: 34px;
     }
 
+    /*Bonos*/
+    .bonos_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bonos-ctn .bono {
+        min-height: 525px;
+        max-height: 525px;
+    }
+
+    .seismeses_en .caracteristicas {
+        margin-bottom: 34px;
+    }
+
 }
 
 @media screen and (min-width:1024px) {
@@ -330,6 +400,62 @@
 }
 
 /*ESTANCIAS code end*/
+
+/*BONOS code start*/
+/*12 Monate*/
+.docemeses_en .precio-area,
+.docemeses_en .area-ctn {
+    background: #FFF;
+}
+
+.docemeses_en .btn {
+    background: #fff;
+    color: #173457;
+    border: 2px solid #173457;
+}
+
+.docemeses_en .btn:hover {
+    background: #173457;
+    color: #fff;
+    border: 2px solid #173457;
+}
+
+.docemeses_en .bono-nombre {
+    background: #173457;
+}
+
+.docemeses_en .bono-nombre:before {
+    content: "6 Monate";
+}
+
+/*6 monate*/
+.seismeses_en .precio-area,
+.seismeses_en .area-ctn {
+    background: #FFF;
+}
+
+.seismeses_en .btn{
+    background: #fff;
+    color: #173457;
+    border: 2px solid #173457;
+}
+
+.seismeses_en .btn:hover {
+    background: #173457;
+    color: #fff;
+    border: 2px solid #173457;
+}
+
+.seismeses_en .bono-nombre {
+    background: #173457;
+}
+
+.seismeses_en .bono-nombre:before {
+    content: "6 Monate";
+}
+
+/*BONOS code end*/
+
 /*Packs code start*/
 
 .limpieza_de .precio-area,
@@ -498,6 +624,20 @@
         margin-bottom: 34px;
     }
 
+    /*Bonos*/
+    .bonos_wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bonos-ctn .estancia {
+        min-height: 525px;
+        max-height: 525px;
+    }
+
+    .seismeses_de .caracteristicas {
+        margin-bottom: 34px;
+    }
 }
 @media screen and (min-width:1024px) {
    
