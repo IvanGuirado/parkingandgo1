@@ -33,7 +33,7 @@
     background: #FFF;
 }
 
-.semanal_en .btn{
+.semanal_en .btn {
     background: #fff;
     color: #173457;
     border: 2px solid #173457;
@@ -56,56 +56,94 @@
 /*ESTANCIAS code end*/
 
 /*BONOS code start*/
-/*12 MESES*/
-.docemeses_en .precio-area,
-.docemeses_en .area-ctn {
-    background: #FFF;
+
+/*Ingles*/
+
+/*12 months*/
+
+.doce_en .bono-nombre {
+    background: #173457;
 }
 
-.docemeses_en .btn {
+.doce_en .bono-nombre:before {
+    content: "One year";
+}
+
+.doce_en .btn {
     background: #fff;
     color: #173457;
     border: 2px solid #173457;
 }
 
-.docemeses_en .btn:hover {
+.doce_en .btn:hover {
     background: #173457;
     color: #fff;
     border: 2px solid #173457;
-}
-
-.docemeses_en .bono-nombre {
-    background: #173457;
-}
-
-.docemeses_en .bono-nombre:before {
-    content: "6 Months";
 }
 
 /*6 months*/
-.seismeses_en .precio-area,
-.seismeses_en .area-ctn {
-    background: #FFF;
+.seis_en .bono-nombre {
+    background: #173457;
 }
 
-.seismeses_en .btn{
+.seis_en .bono-nombre:before {
+    content: "6 months";
+}
+
+.seis_en .btn {
     background: #fff;
     color: #173457;
     border: 2px solid #173457;
 }
 
-.seismeses_en .btn:hover {
+.seis_en .btn:hover {
     background: #173457;
     color: #fff;
     border: 2px solid #173457;
 }
 
-.seismeses_en .bono-nombre {
+/*Aleman*/
+
+/*12 monate*/
+.doce_de .bono-nombre {
     background: #173457;
 }
 
-.seismeses_en .bono-nombre:before {
-    content: "Weekly";
+.doce_de .bono-nombre:before {
+    content: "Ein Jahr";
+}
+
+.doce_de .btn {
+    background: #fff;
+    color: #173457;
+    border: 2px solid #173457;
+}
+
+.doce_de .btn:hover {
+    background: #173457;
+    color: #fff;
+    border: 2px solid #173457;
+}
+
+/*6 monate*/
+.seis_de .bono-nombre {
+    background: #173457;
+}
+
+.seis_de .bono-nombre:before {
+    content: "6 Monate";
+}
+
+.seis_de .btn {
+    background: #fff;
+    color: #173457;
+    border: 2px solid #173457;
+}
+
+.seis_de .btn:hover {
+    background: #173457;
+    color: #fff;
+    border: 2px solid #173457;
 }
 
 /*BONOS code end*/
@@ -117,7 +155,7 @@
     background: #ffd861;
 }
 
-.limpieza_en .btn  {
+.limpieza_en .btn {
     background: #fff;
     color: #ffd861;
     border: 2px solid #ffd861;
@@ -134,7 +172,7 @@
     background: #a26bfa;
 }
 
-.mantenimiento_en .btn  {
+.mantenimiento_en .btn {
     background: #fff;
     color: #a26bfa;
     border: 2px solid #a26bfa;
@@ -151,7 +189,7 @@
     background: #43ef8b;
 }
 
-.aeropuerto_en .btn  {
+.aeropuerto_en .btn {
     background: #fff;
     color: #43ef8b;
     border: 2px solid #43ef8b;
@@ -168,7 +206,7 @@
     background: #F5A9A9;
 }
 
-.premium_en .btn  {
+.premium_en .btn {
     background: #fff;
     color: #F5A9A9;
     border: 2px solid #F5A9A9;
@@ -214,11 +252,12 @@
 }
 
 /*RESPONSIVE ENGLISH*/
-@media screen and (min-width:480px){
+@media screen and (min-width:480px) {
     .limpieza_en .caracteristicas {
         margin-bottom: 20px;
 
     }
+
     .mantenimiento_en .caracteristicas {
         margin-bottom: 20px;
 
@@ -229,6 +268,7 @@
 
     }
 }
+
 @media screen and (min-width:768px) {
 
 
@@ -276,8 +316,7 @@
     }
 
     .bonos-ctn .bono {
-        min-height: 525px;
-        max-height: 525px;
+        min-height: 300px;
     }
 
     .seismeses_en .caracteristicas {
@@ -294,6 +333,7 @@
         width: 350px;
         height: 400px;
     }
+
     .premium_en .caracteristicas {
         margin-bottom: 144px;
     }
@@ -434,7 +474,7 @@
     background: #FFF;
 }
 
-.seismeses_en .btn{
+.seismeses_en .btn {
     background: #fff;
     color: #173457;
     border: 2px solid #173457;
@@ -558,9 +598,11 @@
 .premium_de .Pack-nombre:before {
     content: "Prämie";
 }
+
 .premium_de .info-area {
     text-align: center;
 }
+
 /*RESPONSIVE GERMAN*/
 
 @media screen and (min-width:480px) {
@@ -568,14 +610,17 @@
         margin-bottom: 20px;
 
     }
+
     .mantenimiento_de .caracteristicas {
         margin-bottom: 20px;
 
     }
+
     .aeropuerto_de .caracteristicas {
         margin-bottom: 20px;
 
     }
+
     .premium_de .caracteristicas {
         margin-bottom: 20px;
 
@@ -639,8 +684,9 @@
         margin-bottom: 34px;
     }
 }
+
 @media screen and (min-width:1024px) {
-   
+
     /*Packs */
     .limpieza_de, .mantenimiento_de,
     .aeropuerto_de, .premium_de {
@@ -649,6 +695,7 @@
     }
 
 }
+
 @media screen and (min-width:1200px) {
 
 
@@ -671,6 +718,7 @@
     }
 
 }
+
 @media screen and (min-width:1280px) {
 
     .limpieza_de .caracteristicas {

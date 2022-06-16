@@ -1,5 +1,5 @@
 function verContacto() {
-    var element = $(".seccion5:visible")[0];
+    var element = $(".seccion6:visible")[0];
     // smooth scroll to element and align it at the bottom
     element.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
