@@ -999,10 +999,12 @@ select {
 @media screen and (min-width:768px) {
 
     /*SECCIONES*/
-    #seccion1, #seccion4, #seccion5, .seccion6 {
+    #seccion1, #seccion4, #seccion5 {
         padding: 20px 40px;
     }
-
+    .seccion6{
+        padding: 20px 40px;  
+    }
     #seccion5 p {
         padding: 0 70px;
     }
@@ -1012,8 +1014,8 @@ select {
     .packs-ctn .pack {
         min-width: 280px;
         max-width: 280px;
-        min-height: 475px;
-        max-height: 475px;
+        min-height: 560px;
+        max-height: 560px;
     }
 
     .limpieza .caracteristicas {
@@ -1060,6 +1062,11 @@ select {
     .bonos-ctn .bono {
         min-height: 300px;
     }
+     
+     .limpieza_img img, .mantenimiento_img img, .aeropuerto_img img, .premium_img img{
+         width: 100px;
+         height: 100px;
+     }
 
     /*FORMULARIO*/
     #check {
@@ -1159,14 +1166,14 @@ select {
     }
 
     .packs-ctn .pack {
-        min-width: 220px;
-        max-width: 220px;
-        min-height: 540px;
-        max-height: 540px;
+        min-width: 235px;
+        max-width: 235px;
+        min-height: 610px;
+        max-height: 610px;
     }
 
     .limpieza .caracteristicas {
-        margin-bottom: 239px;
+        margin-bottom: 211px;
 
     }
 
@@ -1176,12 +1183,12 @@ select {
     }
 
     .mantenimiento .caracteristicas {
-        margin-bottom: 64px;
+        margin-bottom: 52px;
 
     }
 
     .premium .info-ctn {
-        margin-top: 185px;
+        margin-top: 172px;
     }
 
     #check {
@@ -1194,8 +1201,8 @@ select {
     .packs-ctn .pack {
         min-width: 250px;
         max-width: 250px;
-        min-height: 480px;
-        max-height: 480px;
+        min-height: 580px;
+        max-height: 580px;
     }
 
     .limpieza .caracteristicas {
@@ -1213,6 +1220,6 @@ select {
     }
 
     .premium .info-ctn {
-        margin-top: 140px;
+        margin-top: 139px;
     }
 }

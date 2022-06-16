@@ -343,22 +343,22 @@
 
 
     .limpieza_en .caracteristicas {
-        margin-bottom: 239px;
+        margin-bottom: 206px;
 
     }
 
     .aeropuerto_en .caracteristicas {
         padding-bottom: 0px;
-        margin-bottom: 84px;
+        margin-bottom: 66px;
     }
 
     .mantenimiento_en .caracteristicas {
-        margin-bottom: 86px;
+        margin-bottom: 65px;
 
     }
 
     .premium_en .info-ctn {
-        margin-top: 185px;
+        margin-top: 184px;
     }
 
 }
@@ -380,7 +380,7 @@
     }
 
     .premium_en .info-ctn {
-        margin-top: 156px;
+        margin-top: 155px;
     }
 }
 
@@ -700,21 +700,21 @@
 
 
     .limpieza_de .caracteristicas {
-        margin-bottom: 240px;
+        margin-bottom: 208px;
 
     }
 
     .aeropuerto_de .caracteristicas {
-        margin-bottom: 21px;
+        margin-bottom: 35px;
     }
 
     .mantenimiento_de .caracteristicas {
-        margin-bottom: 36px;
+        margin-bottom: 16px;
 
     }
 
     .premium_de .caracteristicas {
-        margin-bottom: 185px;
+        margin-bottom: 152px;
     }
 
 }
@@ -736,6 +736,6 @@
     }
 
     .premium_de .caracteristicas {
-        margin-bottom: 125px;
+        margin-bottom: 124px;
     }
 }
