@@ -8,15 +8,14 @@
 input[type=text], input[type=tel], input[type=date], input[type=email] {
     background: #fff;
     border: 1px solid #ccc;
-    height: 50px;
+    height: 40px;
     width: 100%;
     padding: 12px;
     font-size: 15px;
     text-align: start;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     box-sizing: border-box;
-    box-shadow: 0px 1px 2px rgb(0 0 0 / 30%);
 }
 
 input[type=date] {
@@ -79,6 +78,7 @@ button[type=submit]:hover {
 }
 
 #seccion1 .texto,
+#seccion3 .texto,
 #seccion4 .texto {
     padding: 10px 15px;
 
@@ -174,8 +174,8 @@ button[type=submit]:hover {
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 3px solid #173457;
-    color: #173457;
+    border: 2px solid #fff;
+    color: #fff;
     line-height: 10px;
     text-align: center;
     position: relative;
@@ -186,8 +186,7 @@ button[type=submit]:hover {
 }
 
 .precio-area .area-estancia-ctn .precio {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 22px;
 }
 
 #iva {
@@ -254,7 +253,7 @@ button[type=submit]:hover {
 /*Mensual*/
 .mensual .precio-area,
 .mensual .area-ctn {
-    background: #FFF;
+    background: #173457;
 }
 
 .mensual .btn {
@@ -281,7 +280,7 @@ button[type=submit]:hover {
 /*Semanal*/
 .semanal .precio-area,
 .semanal .area-ctn {
-    background: #FFF;
+    background: #173457;
 }
 
 .semanal .btn {
@@ -480,13 +479,14 @@ button[type=submit]:hover {
     min-width: 220px;
     max-width: 220px;
 }
-.limpieza_img, .mantenimiento_img, .aeropuerto_img, .premium_img{
-   display: flex;
-   justify-content: center;
+
+.limpieza_img, .mantenimiento_img, .aeropuerto_img, .premium_img {
+    display: flex;
+    justify-content: center;
 }
 
-.limpieza_img img, .mantenimiento_img img, .aeropuerto_img img, .premium_img img{
-    width: 150px;
+.limpieza_img img, .mantenimiento_img img, .aeropuerto_img img, .premium_img img {
+    width: 120px;
     height: auto;
 }
 
@@ -580,6 +580,7 @@ button[type=submit]:hover {
     margin: 20px 0;
 }
 
+
 .limpieza .precio-area,
 .limpieza .area-ctn {
     background: #ffd861;
@@ -595,6 +596,11 @@ button[type=submit]:hover {
     background: #ffd861;
     color: #fff;
     border: 2px solid #ffd861;
+}
+
+.limpieza .caracteristicas {
+    margin-bottom: 20px;
+
 }
 
 .mantenimiento .precio-area,
@@ -614,6 +620,11 @@ button[type=submit]:hover {
     border: 2px solid #a26bfa;
 }
 
+.mantenimiento .caracteristicas {
+    margin-bottom: 20px;
+
+}
+
 .aeropuerto .precio-area,
 .aeropuerto .area-ctn {
     background: #43ef8b;
@@ -631,6 +642,11 @@ button[type=submit]:hover {
     border: 2px solid #43ef8b;
 }
 
+.aeropuerto .caracteristicas {
+    margin-bottom: 20px;
+
+}
+
 .premium .precio-area,
 .premium .area-ctn {
     background: #F5A9A9;
@@ -646,6 +662,11 @@ button[type=submit]:hover {
     background: #F5A9A9;
     color: #fff;
     border: 2px solid #F5A9A9;
+}
+
+.premium .caracteristicas {
+    margin-bottom: 20px;
+
 }
 
 .limpieza .Pack-nombre {
@@ -741,11 +762,25 @@ button[type=submit]:hover {
     padding: 10px;
 }
 
+
 .form-contact p {
     margin-bottom: 15px;
     width: 100%;
     text-align: center;
 }
+
+.personal, .vehiculo, .detalles-reserva, .mensaje {
+    color: #3D3D4A;
+}
+
+.vehiculo, .detalles-reserva {
+    padding-top: 20px;
+}
+
+.personal-ctn, .vehiculo-ctn, .reserva-ctn, .mensaje-ctn {
+    border-top: #d9d9d9 solid 1px;
+}
+
 
 .datos {
     display: flex;
@@ -757,6 +792,7 @@ button[type=submit]:hover {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    padding-bottom: 25px;
 }
 
 .entrega, .delivery, .lieferdatum {
@@ -778,9 +814,9 @@ button[type=submit]:hover {
 .entrega p, .delivery p, .lieferdatum p {
     position: absolute;
     z-index: 9;
-    top: 15px;
+    top: 32px;
     background: #fff;
-    width: calc(90% - 30px);
+    width: calc(90% - 60px);
     pointer-events: none;
     color: #777;
 }
@@ -788,18 +824,18 @@ button[type=submit]:hover {
 .recogida p, .pickup p, .abholdatum p {
     position: absolute;
     z-index: 9;
-    top: 15px;
+    top: 32px;
     background: #fff;
-    width: calc(90% - 30px);
+    width: calc(90% - 40px);
     pointer-events: none;
     color: #777;
 }
 
-.select1-ctn {
+.select1-ctn, .select2-ctn, .select3-ctn {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     width: 100%;
 }
 
@@ -833,26 +869,19 @@ button[type=submit]:hover {
     padding: 0 0 20px 0;
 }
 
-#check {
+#check1 {
     justify-items: center;
     font-size: 12px;
 }
 
-.select-box1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 10px 0 30px 0;
+#check1 {
+    margin-left: 35px;
 }
 
-
-.select-box2 {
+.select-box1, .select-box2, .select-box3 {
     display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 10px;
-}
-
-.select-box1, .select-box2 p {
-    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
 }
 
 select {
@@ -860,13 +889,14 @@ select {
     padding: 5px 10px;
     border-radius: 5px;
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    width: 120px;
 }
 
-.mensaje, .sent {
+.mensaje-ctn, .sent {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    padding: 30px 20px;
+    padding: 20px;
     width: 100%;
 }
 
@@ -885,9 +915,10 @@ select {
 }
 
 
-#pselect, #cselect {
+#cselect, #bselect, #pselect {
     display: flex;
     justify-content: center;
+
 }
 
 
@@ -897,13 +928,15 @@ select {
 @media screen and (min-width:480px) {
 
     /*SECCIONES*/
-    #seccion1, #seccion4, #seccion5, .seccion6 {
+    #seccion1, #seccion3, #seccion4, #seccion5, .seccion6 {
         padding: 20px 20px;
     }
 
     #seccion5 p {
         padding: 0 85px;
     }
+
+
 
     /*Packs*/
 
@@ -912,20 +945,6 @@ select {
         max-width: 300px;
     }
 
-    .limpieza .caracteristicas {
-        margin-bottom: 20px;
-
-    }
-
-    .mantenimiento .caracteristicas {
-        margin-bottom: 20px;
-
-    }
-
-    .aeropuerto .caracteristicas {
-        margin-bottom: 20px;
-
-    }
 
     /*Estancia*/
 
@@ -945,6 +964,12 @@ select {
     /*FORMULARIO*/
     .form-contact {
         max-width: 100vw;
+        width: 450px;
+
+    }
+
+    .contact-info {
+        font-size: 15px;
 
     }
 
@@ -957,15 +982,40 @@ select {
     .contact-form textarea {
         padding: 12px 20px;
         min-width: 300px;
+        max-width: 300px;
+        min-height: 150px;
     }
 
-    .select-box1, .select-box2 {
+    .datos {
+        display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-items: center;
+        grid-column-gap: 10px;
     }
 
-    .select-box1 p, .select-box2 p {
-        margin-top: 23px;
+    .reserva {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+
+    .coche-ctn {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+
+    .select1-ctn, .select2-ctn, .select3-ctn {
+        padding-bottom: 5px;
+
+    }
+
+    .select-box1, .select-box2, .select-box3 {
+        display: flex;
+    }
+
+    .select-box1 p, .select-box2 p, .select-box3 p {
+        margin-top: 21px;
+        width: 140px;
     }
 
     .check-box {
@@ -973,18 +1023,19 @@ select {
     }
 
     select {
-        font-size: 13px;
+        font-size: 14px;
         padding: 5px 10px;
         border-radius: 5px;
         box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+
     }
 
-    #cselect, #pselect {
+    #cselect, #bselect, #pselect {
         display: block;
-        margin: 15px 0;
+        margin: 15px;
     }
 
-    #check {
+    #check1 {
         display: flex;
         width: 100%;
         margin-left: 0;
@@ -994,17 +1045,21 @@ select {
         justify-content: space-evenly;
     }
 
+
+
 }
 
 @media screen and (min-width:768px) {
 
     /*SECCIONES*/
-    #seccion1, #seccion4, #seccion5 {
+    #seccion1, #seccion3, #seccion4, #seccion5 {
         padding: 20px 40px;
     }
-    .seccion6{
-        padding: 20px 40px;  
+
+    .seccion6 {
+        padding: 20px 40px;
     }
+
     #seccion5 p {
         padding: 0 70px;
     }
@@ -1014,13 +1069,13 @@ select {
     .packs-ctn .pack {
         min-width: 280px;
         max-width: 280px;
-        min-height: 560px;
-        max-height: 560px;
+        min-height: 575px;
+        max-height: 575px;
     }
 
     .limpieza .caracteristicas {
         padding-bottom: 0px;
-        margin-bottom: 169px;
+        margin-bottom: 166px;
 
     }
 
@@ -1062,164 +1117,193 @@ select {
     .bonos-ctn .bono {
         min-height: 300px;
     }
-     
-     .limpieza_img img, .mantenimiento_img img, .aeropuerto_img img, .premium_img img{
-         width: 100px;
-         height: 100px;
-     }
+
+    .limpieza_img img, .mantenimiento_img img, .aeropuerto_img img, .premium_img img {
+        width: 100px;
+        height: 100px;
+    }
 
     /*FORMULARIO*/
-    #check {
 
+    .form-contact {
+        width: 500px;
+    }
+
+    .select-box1 p, .select-box2 p, .select-box3 p {
+        width: 250px;
+    }
+
+    #check1 {
         font-size: 13px;
     }
-}
-
-@media screen and (min-width:1024px) {
-    .texto h2 {
-
-        font-size: 25px;
-
-    }
-
-    .texto p {
-        font-size: 16px;
-    }
-
-    /*SECCIONES*/
-    #seccion1, #seccion4, #seccion5, .seccion6 {
-        padding: 20px 40px;
-    }
-
-    #seccion3 h2, #seccion2 h2, #seccion5 h2, .seccion6 h2 {
-        font-size: 25px;
-    }
-
-    #seccion5 p {
-        padding: 0 165px;
-    }
-
-    /*Packs code start*/
-    .limpieza, .mantenimiento,
-    .aeropuerto, .premium {
-        width: 350px;
-        height: 400px;
-    }
-
-    /*FORMULARIO*/
-    .formulario {
-        min-height: 40vh;
-    }
-
-    .contact-info {
-        line-height: 60px;
-        font-size: 17px;
-    }
-
-    .contact-info i {
-        font-size: 25px;
-    }
-
-    .contact-form h2 {
-        font-size: 35px;
-    }
-
-    .reserva {
-        display: flex;
-        flex-wrap: nowrap;
-        width: 100%;
-        gap: 10px;
-    }
-
-    .entrega p, .delivery p, .lieferdatum p {
-        width: calc(90% - 50px);
-        font-size: 15px;
-        margin-right: 17px;
-    }
-
-    .recogida p, .pickup p, .abholdatum p {
-
-        width: calc(90% - 50px);
-        font-size: 15px;
-        margin-right: 17px;
-    }
 
 
+    @media screen and (min-width:1024px) {
+        .texto h2 {
 
-}
+            font-size: 25px;
+
+        }
+
+        .texto p {
+            font-size: 16px;
+        }
+
+        /*SECCIONES*/
+        #seccion1, #seccion4, #seccion5, .seccion6 {
+            padding: 20px 40px;
+        }
+
+        #seccion3 h2, #seccion2 h2, #seccion5 h2, .seccion6 h2 {
+            font-size: 25px;
+        }
+
+        #seccion5 p {
+            padding: 0 165px;
+        }
+
+        /*Packs code start*/
+        .limpieza, .mantenimiento,
+        .aeropuerto, .premium {
+            width: 350px;
+            height: 400px;
+        }
+
+        /*FORMULARIO*/
+
+        .form-contact {
+            width: 600px;
+        }
+
+        .formulario {
+            min-height: 40vh;
+        }
+
+        .contact-info {
+            line-height: 60px;
+            font-size: 17px;
+        }
+
+        .contact-info i {
+            font-size: 25px;
+        }
+
+        .datos {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .coche-ctn {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .reserva {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            gap: 10px;
+        }
+
+        .entrega p, .delivery p, .lieferdatum p {
+            width: calc(90% - 50px);
+            font-size: 15px;
+            margin-right: 17px;
+        }
+
+        .recogida p, .pickup p, .abholdatum p {
+
+            width: calc(90% - 50px);
+            font-size: 15px;
+            margin-right: 17px;
+        }
+
+        .contact-form textarea {
+
+            max-width: 350px;
+        }
 
 
-@media screen and (min-width:1200px) {
 
-    #seccion5 p {
-        padding: 0 30px;
-    }
-
-    #seccion5 .pman {
-        padding: 10px 0 0 0;
-    }
-
-
-    .packs-ctn {
-        display: flex;
-        justify-content: center;
-    }
-
-    .packs-ctn .pack {
-        min-width: 235px;
-        max-width: 235px;
-        min-height: 610px;
-        max-height: 610px;
-    }
-
-    .limpieza .caracteristicas {
-        margin-bottom: 211px;
 
     }
 
-    .aeropuerto .caracteristicas {
-        padding-bottom: 0px;
-        margin-bottom: 37px;
+
+    @media screen and (min-width:1200px) {
+
+        #seccion5 p {
+            padding: 0 30px;
+        }
+
+        #seccion5 .pman {
+            padding: 10px 0 0 0;
+        }
+
+
+        .packs-ctn {
+            display: flex;
+            justify-content: center;
+        }
+
+        .packs-ctn .pack {
+            min-width: 235px;
+            max-width: 235px;
+            min-height: 610px;
+            max-height: 610px;
+        }
+
+        .limpieza .caracteristicas {
+            margin-bottom: 211px;
+
+        }
+
+        .aeropuerto .caracteristicas {
+            padding-bottom: 0px;
+            margin-bottom: 37px;
+        }
+
+        .mantenimiento .caracteristicas {
+            margin-bottom: 52px;
+
+        }
+
+        .premium .info-ctn {
+            margin-top: 172px;
+        }
+
+        .form-contact {
+            width: 700px;
+        }
+
     }
 
-    .mantenimiento .caracteristicas {
-        margin-bottom: 52px;
+    @media screen and (min-width:1280px) {
+        .packs-ctn .pack {
+            min-width: 250px;
+            max-width: 250px;
+            min-height: 580px;
+            max-height: 580px;
+        }
 
-    }
+        .limpieza .caracteristicas {
+            margin-bottom: 175px;
 
-    .premium .info-ctn {
-        margin-top: 172px;
-    }
+        }
 
-    #check {
-        justify-content: space-between;
-    }
+        .aeropuerto .caracteristicas {
+            margin-bottom: 21px;
+        }
 
-}
+        .mantenimiento .caracteristicas {
+            margin-bottom: 35px;
 
-@media screen and (min-width:1280px) {
-    .packs-ctn .pack {
-        min-width: 250px;
-        max-width: 250px;
-        min-height: 580px;
-        max-height: 580px;
-    }
+        }
 
-    .limpieza .caracteristicas {
-        margin-bottom: 175px;
+        .premium .info-ctn {
+            margin-top: 139px;
+        }
 
-    }
-
-    .aeropuerto .caracteristicas {
-        margin-bottom: 21px;
-    }
-
-    .mantenimiento .caracteristicas {
-        margin-bottom: 35px;
-
-    }
-
-    .premium .info-ctn {
-        margin-top: 139px;
+        /*FORMULARIO*/
+        .form-contact {
+            width: 800px;
+        }
     }
 }

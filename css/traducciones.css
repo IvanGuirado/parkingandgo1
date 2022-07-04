@@ -4,7 +4,7 @@
 /*Monthly*/
 .mensual_en .precio-area,
 .mensual_en .area-ctn {
-    background: #FFF;
+    background: #173457;
 }
 
 .mensual_en .btn {
@@ -20,7 +20,7 @@
 }
 
 .mensual_en .estancia-nombre {
-    background: #173457;
+    background: #fff;
 }
 
 .mensual_en .estancia-nombre:before {
@@ -30,7 +30,7 @@
 /*Weekly*/
 .semanal_en .precio-area,
 .semanal_en .area-ctn {
-    background: #FFF;
+    background: #173457;
 }
 
 .semanal_en .btn {
@@ -46,7 +46,7 @@
 }
 
 .semanal_en .estancia-nombre {
-    background: #173457;
+    background: #fff;
 }
 
 .semanal_en .estancia-nombre:before {
@@ -102,49 +102,7 @@
     border: 2px solid #173457;
 }
 
-/*Aleman*/
 
-/*12 monate*/
-.doce_de .bono-nombre {
-    background: #173457;
-}
-
-.doce_de .bono-nombre:before {
-    content: "Ein Jahr";
-}
-
-.doce_de .btn {
-    background: #fff;
-    color: #173457;
-    border: 2px solid #173457;
-}
-
-.doce_de .btn:hover {
-    background: #173457;
-    color: #fff;
-    border: 2px solid #173457;
-}
-
-/*6 monate*/
-.seis_de .bono-nombre {
-    background: #173457;
-}
-
-.seis_de .bono-nombre:before {
-    content: "6 Monate";
-}
-
-.seis_de .btn {
-    background: #fff;
-    color: #173457;
-    border: 2px solid #173457;
-}
-
-.seis_de .btn:hover {
-    background: #173457;
-    color: #fff;
-    border: 2px solid #173457;
-}
 
 /*BONOS code end*/
 
@@ -166,6 +124,10 @@
     color: #fff;
     border: 2px solid #ffd861;
 }
+.limpieza_en .caracteristicas {
+    margin-bottom: 20px;
+
+}
 
 .mantenimiento_en .precio-area,
 .mantenimiento_en .area-ctn {
@@ -184,6 +146,10 @@
     border: 2px solid #a26bfa;
 }
 
+.mantenimiento_en .caracteristicas {
+    margin-bottom: 20px;
+
+}
 .aeropuerto_en .precio-area,
 .aeropuerto_en .area-ctn {
     background: #43ef8b;
@@ -199,6 +165,10 @@
     background: #43ef8b;
     color: #fff;
     border: 2px solid #43ef8b;
+}
+.aeropuerto_en .caracteristicas {
+    margin-bottom: 20px;
+
 }
 
 .premium_en .precio-area,
@@ -390,7 +360,7 @@
 /*Monthly*/
 .mensual_de .precio-area,
 .mensual_de .area-ctn {
-    background: #FFF;
+    background: #173457;
 }
 
 .mensual_de .btn {
@@ -406,7 +376,7 @@
 }
 
 .mensual_de .estancia-nombre {
-    background: #173457;
+    background: #fff;
 }
 
 .mensual_de .estancia-nombre:before {
@@ -416,7 +386,7 @@
 /*Weekly*/
 .semanal_de .precio-area,
 .semanal_de .area-ctn {
-    background: #FFF;
+    background: #173457;
 }
 
 .semanal_de .btn {
@@ -432,7 +402,7 @@
 }
 
 .semanal_de .estancia-nombre {
-    background: #173457;
+    background: #fff;
 }
 
 .semanal_de .estancia-nombre:before {
@@ -441,57 +411,48 @@
 
 /*ESTANCIAS code end*/
 
-/*BONOS code start*/
-/*12 Monate*/
-.docemeses_en .precio-area,
-.docemeses_en .area-ctn {
-    background: #FFF;
+/*Aleman*/
+
+/*12 monate*/
+.doce_de .bono-nombre {
+    background: #173457;
 }
 
-.docemeses_en .btn {
+.doce_de .bono-nombre:before {
+    content: "Ein Jahr";
+}
+
+.doce_de .btn {
     background: #fff;
     color: #173457;
     border: 2px solid #173457;
 }
 
-.docemeses_en .btn:hover {
+.doce_de .btn:hover {
     background: #173457;
     color: #fff;
     border: 2px solid #173457;
-}
-
-.docemeses_en .bono-nombre {
-    background: #173457;
-}
-
-.docemeses_en .bono-nombre:before {
-    content: "6 Monate";
 }
 
 /*6 monate*/
-.seismeses_en .precio-area,
-.seismeses_en .area-ctn {
-    background: #FFF;
+.seis_de .bono-nombre {
+    background: #173457;
 }
 
-.seismeses_en .btn {
+.seis_de .bono-nombre:before {
+    content: "6 Monate";
+}
+
+.seis_de .btn {
     background: #fff;
     color: #173457;
     border: 2px solid #173457;
 }
 
-.seismeses_en .btn:hover {
+.seis_de .btn:hover {
     background: #173457;
     color: #fff;
     border: 2px solid #173457;
-}
-
-.seismeses_en .bono-nombre {
-    background: #173457;
-}
-
-.seismeses_en .bono-nombre:before {
-    content: "6 Monate";
 }
 
 /*BONOS code end*/
@@ -514,6 +475,10 @@
     color: #fff;
     border: 2px solid #ffd861;
 }
+.limpieza_de .caracteristicas {
+    margin-bottom: 20px;
+
+}
 
 .mantenimiento_de .precio-area,
 .mantenimiento_de .area-ctn {
@@ -532,6 +497,11 @@
     border: 2px solid #a26bfa;
 }
 
+.mantenimiento_de .caracteristicas {
+    margin-bottom: 20px;
+
+}
+
 .aeropuerto_de .precio-area,
 .aeropuerto_de .area-ctn {
     background: #43ef8b;
@@ -547,6 +517,10 @@
     background: #43ef8b;
     color: #fff;
     border: 2px solid #43ef8b;
+}
+.aeropuerto_de .caracteristicas {
+    margin-bottom: 20px;
+
 }
 
 .premium_de .precio-area,
